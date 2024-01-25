@@ -41,6 +41,28 @@ public class SidePanel extends TabbedSidePanel {
 
     private void initSettings() {
         SideTab tab = addTab("Settings");
+        tab.addLabel("General Settings:");
+        tab.addLabel("hspace");
+        tab.addDoubleSpinner(data.hspace, 0, Integer.MAX_VALUE, 1, (e, v) -> {
+            data.hspace = v;
+            data.draw.repaint();
+        }); tab.addLabel("vspace");
+        tab.addDoubleSpinner(data.vspace, 0, Integer.MAX_VALUE, 1, (e, v) -> {
+            data.vspace = v;
+            data.draw.repaint();
+        });
+
+        tab.addLabel("format");
+        tab.addTextField(data.format, (e, v) -> {
+            data.format = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("stroke");
+        tab.addDoubleSpinner(data.stroke, 0, Double.MAX_VALUE, 0.2, (e, v) -> {
+            data.stroke = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("Matrix Settings:");
         tab.addCheckbox("boring method", data.boring, (e, v) -> {
             data.boring = v;
             data.draw.repaint();
@@ -64,31 +86,9 @@ public class SidePanel extends TabbedSidePanel {
             data.draw.repaint();
         });
 
-        tab.addLabel("stroke");
-        tab.addDoubleSpinner(data.stroke, 0, Double.MAX_VALUE, 0.2, (e, v) -> {
-            data.stroke = v;
-            data.draw.repaint();
-        });
-
         tab.addLabel("gray");
         tab.addDoubleSpinner(data.gray, 0, 1, 0.1, (e, v) -> {
             data.gray = v;
-            data.draw.repaint();
-        });
-        
-        tab.addLabel("hspace");
-        tab.addDoubleSpinner(data.hspace, 0, Integer.MAX_VALUE, 1, (e, v) -> {
-            data.hspace = v;
-            data.draw.repaint();
-        }); tab.addLabel("vspace");
-        tab.addDoubleSpinner(data.vspace, 0, Integer.MAX_VALUE, 1, (e, v) -> {
-            data.vspace = v;
-            data.draw.repaint();
-        });
-
-        tab.addLabel("format");
-        tab.addTextField(data.format, (e, v) -> {
-            data.format = v;
             data.draw.repaint();
         });
 
@@ -108,6 +108,12 @@ public class SidePanel extends TabbedSidePanel {
         
         tab.addCheckbox("Show morans", data.showmoran, (e, v) -> {
             data.showmoran = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("Matrix Settings:");
+        tab.addLabel("vertexsize");
+        tab.addDoubleSpinner(data.vertexsize, 0, Double.MAX_VALUE, 1, (e, v) -> {
+            data.vertexsize = v;
             data.draw.repaint();
         });
     }

@@ -39,16 +39,17 @@ public class Data {
      */
     public static void main(String[] args) {
         Data data = new Data();
-        MWISSolver mwis = new MWISSolver();
-        mwis.basicTest();
-//        GUIUtil.makeMainFrame("Pattern based Graph Drawing", data.draw, data.side);
+//        MWISSolver mwis = new MWISSolver();
+//        mwis.basicTest();
+
+        GUIUtil.makeMainFrame("Pattern based Graph Drawing", data.draw, data.side);
     }
     Matrix matrix = null;
 
-    double cellsize = 3;
+    double cellsize = 9;
     double labeloffset = 3;
     double stroke = 0.2;
-    double textsize = 9;
+    double textsize = 5;
     boolean boring = true;
     double gray = 0.5;
     String format = "0.00";
@@ -61,12 +62,16 @@ public class Data {
     boolean permute = true;
     boolean horizontal_layout = true;
     boolean write_timestep = true;
-
+    
+    double vertexsize = 9;
+    
     DrawPanel draw = new DrawPanel(this);
     SidePanel side = new SidePanel(this);
 
     JFileChooser choose = new JFileChooser("../Files/");
-
+    
+    ArrayList<PatternRectangle> patterns = new ArrayList<>();
+    
     void pasteMatrices() {
         try (BufferedReader read = new BufferedReader(new StringReader(ClipboardUtil.getClipboardContents()))) {
             matrix = IO.loadMatrices(read).get(0);
@@ -81,6 +86,10 @@ public class Data {
         if (r == JFileChooser.APPROVE_OPTION) {
             try (BufferedReader read = new BufferedReader(new FileReader(choose.getSelectedFile()))) {
                 matrix = IO.loadMatrices(read).get(0);
+                PatternFinder pf = new PatternFinder(matrix);
+                ArrayList<PatternRectangle> allPatterns = pf.getPatterns(permute);
+                MWISSolver mwis = new MWISSolver();
+                patterns = mwis.solve(allPatterns);
                 draw.repaint();
             } catch (IOException ex) {
                 Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);

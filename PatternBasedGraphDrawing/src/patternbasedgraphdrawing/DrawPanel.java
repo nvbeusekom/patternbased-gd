@@ -9,10 +9,12 @@ import java.awt.Color;
 import java.awt.event.KeyEvent;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
 import nl.tue.geometrycore.geometry.BaseGeometry;
 import nl.tue.geometrycore.geometry.OrientedGeometry;
 import nl.tue.geometrycore.geometry.Vector;
 import nl.tue.geometrycore.geometry.curved.BezierCurve;
+import nl.tue.geometrycore.geometry.curved.Circle;
 import nl.tue.geometrycore.geometry.linear.LineSegment;
 import nl.tue.geometrycore.geometry.linear.Rectangle;
 import nl.tue.geometrycore.geometry.mix.GeometryCycle;
@@ -33,6 +35,9 @@ public class DrawPanel extends GeometryPanel {
     final Data data;
     Rectangle boundingBox = Rectangle.byCornerAndSize(new Vector(875.0,53.5),1620.0,93.0);
     ArrayList<BaseGeometry> items = new ArrayList<>();
+    
+    HashMap<Integer,Vector> vertexLocation;
+    
     DrawPanel(Data data) {
         this.data = data;
     }
@@ -44,7 +49,7 @@ public class DrawPanel extends GeometryPanel {
         if(data.matrix != null){
             double y = data.matrix.rows.length * data.cellsize + 20;
             drawMatrix(new Vector(20,y));
-            drawGraph(new Vector(y + 40,y));
+            drawNodeLink(new Vector(y + 40,y));
         }
         
         Rectangle A4 = IPEWriter.getA4Size();
@@ -159,12 +164,113 @@ public class DrawPanel extends GeometryPanel {
         }
     }
     
-    public void drawGraph(Vector lefttop){
-        // Draw edges
+    public int permuteIndex(int index){
+        if(data.permute && data.matrix.permutation != null){
+            return data.matrix.permutation[index];
+        }
+        return index;
+    }
+    
+    public void drawNodeLink(Vector lefttop){
+        Matrix m = data.matrix;
+        vertexLocation = new HashMap<>();
+        Vector deltaCell = new Vector(data.cellsize,-data.cellsize);
         
+        // Patterns are based on location in the matrix (rectangle), not on index
+        for (PatternRectangle rect : data.patterns) {
+            switch (rect.pattern){
+                case CLUSTER -> {
+                    if(true){ // TODO: If no connecting clusters?
+                        Vector topLeftCircle = Vector.add(lefttop, Vector.multiply((double)rect.i+0.5,deltaCell));
+                        Vector bottomRightCircle = Vector.add(lefttop, Vector.multiply((double)(rect.i+rect.w-1)+0.5,deltaCell));
+                        Vector centerCircle = Vector.interpolate(topLeftCircle, bottomRightCircle, 0.5);
+                        // Scale to use the incircle of the square instead of excircle
+                        topLeftCircle = Vector.interpolate(centerCircle, topLeftCircle, 1/Math.sqrt(2));
+                        bottomRightCircle = Vector.interpolate(centerCircle, bottomRightCircle, 1/Math.sqrt(2));
+                        
+                        Circle c = Circle.byDiametricPoints(topLeftCircle, bottomRightCircle);
+                        int sign = 1;
+                        
+                        // The code below makes a k-gon, but the order of vertices follows the diagonal
+                        for (int i = 0; i < rect.w; i++) {
+                            Vector loc = topLeftCircle.clone();
+                            loc.rotate((double) (sign * (i+1)/2) * 2*Math.PI/(double)rect.w, centerCircle);
+                            vertexLocation.put(permuteIndex(rect.i+i), loc);
+                            sign *= -1;
+                        }
+                    }
+                    else{
+                        // idk yet
+                    }
+                }
+                case BICLUSTER -> {
+                    // We assume the bi-cluster is already chosen in such a way that no overlap occurs
+                    
+                    // Compute height increase
+                    Vector jLoc = Vector.add(lefttop, Vector.multiply((double)rect.j+0.5,deltaCell));
+                    Vector iLoc = Vector.add(lefttop, Vector.multiply((double)(rect.i)+0.5,deltaCell));
+                    
+                    double heightIncrease = jLoc.getY() - iLoc.getY();
+                    
+                    for (int i = 0; i < rect.w; i++) {
+                        Vector loc = Vector.add(lefttop, Vector.multiply((double)(rect.i+i)+0.5,deltaCell));
+                        loc.translate(0, heightIncrease);
+                        vertexLocation.put(permuteIndex(rect.i+i), loc);
+                    }
+
+                }
+                case STAR -> {
+                    // Star goes down (possibly diagonally to the bottom-left)
+                }
+            }
+        }
+        
+        // Get vertex locations
+        for (int i = 0; i < m.cols.length; i++) {
+            // Vertex p_i (permuted) is placed at location i,i
+            if(!vertexLocation.containsKey(permuteIndex(i))){
+                Vector loc = Vector.add(lefttop, Vector.multiply((double)i+0.5,deltaCell));
+                vertexLocation.put(permuteIndex(i),loc);
+            }
+        }
+
+        // Draw edges
+        for (int c = 0; c < m.cols.length; c++) {
+            for (int r = c+1; r < m.rows.length; r++) {
+                
+                if (m.cell(c, r, data.permute)) {
+                    boolean straight = false;
+                    for (PatternRectangle rect : data.patterns) {
+                        if(rect.straightEdge(c, r)){
+                            straight = true;
+                            break;
+                        }
+                    }
+                    
+                    Vector locC = vertexLocation.get(permuteIndex(c));
+                    Vector locR = vertexLocation.get(permuteIndex(r));
+                    Vector control = new Vector(Math.max(locC.getX(), locR.getX()),Math.max(locC.getY(), locR.getY()));
+                    BezierCurve bz = straight? new BezierCurve(locC,locR) : new BezierCurve(locC,control,locR);
+                    draw(bz);
+                }
+            }
+        }
         // Draw patterns
         
         // Draw nodes
+        // TODO: for nodes not drawn in pattern:
+        for (int i = 0; i < m.cols.length; i++) {
+            // Vertex p_i (permuted) is placed at location i,i
+            Vector loc = vertexLocation.get(permuteIndex(i));
+            Circle node = new Circle(loc,data.vertexsize/2);
+            setFill(ExtendedColors.lightGray, Hashures.SOLID);
+            setStroke(Color.black, data.stroke, Dashing.SOLID);
+            draw(node);
+            this.setTextStyle(TextAnchor.CENTER, data.textsize);
+            draw(loc,Integer.toString(permuteIndex(i)));
+            
+        }
+        setFill(null, Hashures.SOLID);
     }
     
     @Override

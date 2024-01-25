@@ -10,14 +10,25 @@ package patternbasedgraphdrawing;
  * @author 20184261
  */
 public class PatternRectangle {
+    
+    public enum Pattern {
+        CLUSTER,
+        BICLUSTER,
+        STAR
+    }
+    
     double score = 0;
     // Top left cell [i][j]
-    double i;
-    double j;
-    double w;
-    double h;
+    // Goes from i to i+(w-1) in x-axis
+    int i;
+    int j;
+    int w;
+    int h;
 
-    public PatternRectangle(double i, double j, double w, double h, double score) {
+    Pattern pattern;
+    
+    // For debugging etc
+    public PatternRectangle(int i, int j, int w, int h, double score) {
         this.i = i;
         this.j = j;
         this.w = w;
@@ -25,11 +36,27 @@ public class PatternRectangle {
         this.score = score;
     }
     
+    public void setCluster(){
+        this.pattern = Pattern.CLUSTER;
+    }
+    public void setBiCluster(){
+        this.pattern = Pattern.BICLUSTER;
+    }
+    public void setStar(){
+        this.pattern = Pattern.STAR;
+    }
+    
     // Takes a permuted matrix, computes score of this rectangle.
     public double computeScore(Matrix m){
         // Do some calculations
         
         return score;
+    }
+    
+    // Logic for determining if an edge should be a straight line-segment
+    public boolean straightEdge(int c, int r){
+        // This line determines if an edge is in the rectanlge, then it should be straight
+        return r >= i && r < i+w && c >= j && c < j+h;
     }
     
     public boolean overlaps(PatternRectangle r){

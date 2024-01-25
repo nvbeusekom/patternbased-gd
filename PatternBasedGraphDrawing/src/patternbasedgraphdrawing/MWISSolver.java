@@ -31,6 +31,17 @@ public class MWISSolver {
     // Todo: split into connected components! Important
     
     
+    public ArrayList<PatternRectangle> solve(ArrayList<PatternRectangle> input){
+        this.candidates = new PatternRectangle[input.size()];
+        input.toArray(candidates);;
+        fillAdjacencyList();
+        boolean[] independent = new boolean[candidates.length];
+        Arrays.fill(independent, true);
+        recursiveBacktrack(0, new ArrayList<>(), 0, independent);
+        printResults();
+        return bestSet;
+    }
+    
     public void basicTest(){
         candidates = new PatternRectangle[5];
         candidates[0] = new PatternRectangle(0,0,2,2,5);
