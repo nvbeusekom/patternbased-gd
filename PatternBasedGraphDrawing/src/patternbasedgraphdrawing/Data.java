@@ -49,13 +49,13 @@ public class Data {
     double cellsize = 9;
     double labeloffset = 3;
     double stroke = 0.2;
-    double textsize = 5;
+    double textsize = 6;
     boolean boring = true;
     double gray = 0.5;
     String format = "0.00";
     boolean diag = false;
-    boolean columnlabels = false;
-    boolean rowlabels = false;
+    boolean columnlabels = true;
+    boolean rowlabels = true;
     boolean showmoran = false;
     double hspace = 20;
     double vspace = 10;

@@ -60,7 +60,8 @@ public class MWISSolver {
         System.out.println("Score: " + bestScore);
         System.out.println("In the best set:");
         for (int i = 0; i < bestSet.size(); i++) {
-            System.out.println(bestSet.get(i).i + "," + bestSet.get(i).j);
+            PatternRectangle r = bestSet.get(i);
+            System.out.println(r.i + "," + r.j + " to " + (r.i+r.h-1) + "," + (r.j+r.w-1) + " of type: " + r.pattern.name());
         }
     }
     

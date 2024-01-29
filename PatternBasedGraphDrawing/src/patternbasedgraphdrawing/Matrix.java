@@ -40,11 +40,11 @@ public class Matrix {
         }
     }
 
-    boolean cell(int col, int row, boolean perm) {
+    boolean cell(int row, int col, boolean perm) {
         if (perm && permutation != null) {
-            return cells[permutation[col]][permutation[row]];
+            return cells[permutation[row]][permutation[col]];
         } else {
-            return cells[col][row];
+            return cells[row][col];
         }
     }
 

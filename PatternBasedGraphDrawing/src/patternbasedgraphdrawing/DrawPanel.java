@@ -77,7 +77,8 @@ public class DrawPanel extends GeometryPanel {
             Vector anchor = lefttop.clone();
             anchor.translate(data.cellsize / 2.0, data.labeloffset);
             for (int c = 0; c < m.cols.length; c++) {
-                draw(anchor, m.col(c, data.permute));
+//                draw(anchor, m.col(c, data.permute));
+                draw(anchor, Integer.toString(c));
                 anchor.translate(data.cellsize, 0);
             }
         }
@@ -87,7 +88,8 @@ public class DrawPanel extends GeometryPanel {
             Vector anchor = lefttop.clone();
             anchor.translate(-data.labeloffset, -data.cellsize / 2.0);
             for (int r = 0; r < m.rows.length; r++) {
-                draw(anchor, m.row(r, data.permute));
+//                draw(anchor, m.row(r, data.permute));
+                draw(anchor, Integer.toString(r));
                 anchor.translate(0, -data.cellsize);
             }
         }
@@ -182,7 +184,7 @@ public class DrawPanel extends GeometryPanel {
                 case CLUSTER -> {
                     if(true){ // TODO: If no connecting clusters?
                         Vector topLeftCircle = Vector.add(lefttop, Vector.multiply((double)rect.i+0.5,deltaCell));
-                        Vector bottomRightCircle = Vector.add(lefttop, Vector.multiply((double)(rect.i+rect.w-1)+0.5,deltaCell));
+                        Vector bottomRightCircle = Vector.add(lefttop, Vector.multiply((double)(rect.i+rect.h-1)+0.5,deltaCell));
                         Vector centerCircle = Vector.interpolate(topLeftCircle, bottomRightCircle, 0.5);
                         // Scale to use the incircle of the square instead of excircle
                         topLeftCircle = Vector.interpolate(centerCircle, topLeftCircle, 1/Math.sqrt(2));
@@ -192,9 +194,9 @@ public class DrawPanel extends GeometryPanel {
                         int sign = 1;
                         
                         // The code below makes a k-gon, but the order of vertices follows the diagonal
-                        for (int i = 0; i < rect.w; i++) {
+                        for (int i = 0; i < rect.h; i++) {
                             Vector loc = topLeftCircle.clone();
-                            loc.rotate((double) (sign * (i+1)/2) * 2*Math.PI/(double)rect.w, centerCircle);
+                            loc.rotate((double) (sign * (i+1)/2) * 2*Math.PI/(double)rect.h, centerCircle);
                             vertexLocation.put(permuteIndex(rect.i+i), loc);
                             sign *= -1;
                         }
@@ -210,17 +212,22 @@ public class DrawPanel extends GeometryPanel {
                     Vector jLoc = Vector.add(lefttop, Vector.multiply((double)rect.j+0.5,deltaCell));
                     Vector iLoc = Vector.add(lefttop, Vector.multiply((double)(rect.i)+0.5,deltaCell));
                     
-                    double heightIncrease = jLoc.getY() - iLoc.getY();
+                    double heightIncrease = iLoc.getY() - jLoc.getY();
                     
                     for (int i = 0; i < rect.w; i++) {
-                        Vector loc = Vector.add(lefttop, Vector.multiply((double)(rect.i+i)+0.5,deltaCell));
+                        Vector loc = Vector.add(lefttop, Vector.multiply((double)(rect.j+i)+0.5,deltaCell));
                         loc.translate(0, heightIncrease);
-                        vertexLocation.put(permuteIndex(rect.i+i), loc);
+                        vertexLocation.put(permuteIndex(rect.j+i), loc);
                     }
 
                 }
                 case STAR -> {
                     // Star goes down (possibly diagonally to the bottom-left)
+                    for (int i = 0; i < rect.h; i++) {
+                        Vector loc = Vector.add(lefttop, Vector.multiply((double)(rect.i+i)+0.5,deltaCell));
+                        Vector translation = Vector.multiply(m.n/10,new Vector(-data.cellsize,-data.cellsize));
+                        vertexLocation.put(permuteIndex(rect.i+i), Vector.add(loc,translation));
+                    }
                 }
             }
         }
@@ -258,7 +265,6 @@ public class DrawPanel extends GeometryPanel {
         // Draw patterns
         
         // Draw nodes
-        // TODO: for nodes not drawn in pattern:
         for (int i = 0; i < m.cols.length; i++) {
             // Vertex p_i (permuted) is placed at location i,i
             Vector loc = vertexLocation.get(permuteIndex(i));
@@ -267,8 +273,7 @@ public class DrawPanel extends GeometryPanel {
             setStroke(Color.black, data.stroke, Dashing.SOLID);
             draw(node);
             this.setTextStyle(TextAnchor.CENTER, data.textsize);
-            draw(loc,Integer.toString(permuteIndex(i)));
-            
+            draw(loc,m.cols[i]);
         }
         setFill(null, Hashures.SOLID);
     }

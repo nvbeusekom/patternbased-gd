@@ -19,11 +19,11 @@ public class PatternRectangle {
     
     double score = 0;
     // Top left cell [i][j]
-    // Goes from i to i+(w-1) in x-axis
+    // Goes from i to i+(h-1) in x-axis
     int i;
     int j;
-    int w;
     int h;
+    int w;
 
     Pattern pattern;
     
@@ -31,8 +31,8 @@ public class PatternRectangle {
     public PatternRectangle(int i, int j, int w, int h, double score) {
         this.i = i;
         this.j = j;
-        this.w = w;
         this.h = h;
+        this.w = w;
         this.score = score;
     }
     
@@ -54,18 +54,19 @@ public class PatternRectangle {
     }
     
     // Logic for determining if an edge should be a straight line-segment
-    public boolean straightEdge(int c, int r){
+    public boolean straightEdge(int r, int c){
         // This line determines if an edge is in the rectanlge, then it should be straight
-        return r >= i && r < i+w && c >= j && c < j+h;
+        return r >= i && r < i+h && c >= j && c < j+w;
     }
     
     public boolean overlaps(PatternRectangle r){
-        if(this.j > r.j+r.w-1 || r.j > this.j + this.w-1){
-            return false;
+        boolean yOverlap = false;
+        if(this.pattern == Pattern.BICLUSTER && r.pattern == Pattern.BICLUSTER){
+            yOverlap = !(j >= r.j + r.w || r.j >= j+w);
         }
-        if(this.i > r.i+r.h-1 || r.i > this.i+this.h-1){
-            return false;
+        if(!(i >= r.i + r.h || r.i >= i+h) || yOverlap){
+            return true;
         }
-        return true;
+        return false;
     }
 }
