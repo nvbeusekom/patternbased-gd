@@ -5,6 +5,11 @@
  */
 package patternbasedgraphdrawing;
 
+import java.util.ArrayList;
+import nl.tue.geometrycore.geometry.BaseGeometry;
+import nl.tue.geometrycore.geometry.linear.Polygon;
+import patternbasedgraphdrawing.DrawPanel.Edge;
+
 /**
  *
  * @author 20184261
@@ -19,13 +24,20 @@ public class PatternRectangle {
     
     double score = 0;
     // Top left cell [i][j]
-    // Goes from i to i+(h-1) in x-axis
+    // Goes from i to i+(h-1) in y-axis
     int i;
     int j;
     int h;
     int w;
 
     Pattern pattern;
+    
+    // A polygon for highlighting the pattern in the NL diagram
+    BaseGeometry highlight;
+    
+    // Edge the must cross the diagonal following the pattern
+    ArrayList<Edge> followingCrossings;
+    
     
     // For debugging etc
     public PatternRectangle(int i, int j, int w, int h, double score) {
@@ -34,6 +46,7 @@ public class PatternRectangle {
         this.h = h;
         this.w = w;
         this.score = score;
+        followingCrossings = new ArrayList<>();
     }
     
     public void setCluster(){
@@ -60,13 +73,27 @@ public class PatternRectangle {
     }
     
     public boolean overlaps(PatternRectangle r){
-        boolean yOverlap = false;
+        boolean xOverlap = false;
         if(this.pattern == Pattern.BICLUSTER && r.pattern == Pattern.BICLUSTER){
-            yOverlap = !(j >= r.j + r.w || r.j >= j+w);
+            xOverlap = !(i >= r.i + r.h || r.i >= i+h);
         }
-        if(!(i >= r.i + r.h || r.i >= i+h) || yOverlap){
+        if(!(j >= r.j + r.w || r.j >= j+w) || xOverlap){
             return true;
         }
         return false;
     }
+    
+    public boolean contains(PatternRectangle r){
+        return r.i >= i && r.j >= j && r.i + r.h <= i + h && r.j + r.w <= j + w; 
+    }
+    
+    @Override
+    public String toString(){
+        return pattern.name() + ":\n"
+                + i+","+j+"---"+i+","+(j+w) + "\n"
+                + "  |       |\n"
+                + (i+h)+","+j+"---"+(i+h)+","+(j+w);
+    }
+    
+    // Hashing 4 integers is hard with 32 bits (I think) so instead I hash array indices in any algorithms that need it.
 }

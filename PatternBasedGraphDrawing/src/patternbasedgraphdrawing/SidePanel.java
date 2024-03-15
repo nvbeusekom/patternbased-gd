@@ -62,6 +62,39 @@ public class SidePanel extends TabbedSidePanel {
             data.stroke = v;
             data.draw.repaint();
         });
+        tab.addCheckbox("Highlight Patterns", data.highlightPatterns, (e, v) -> {
+            data.highlightPatterns = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("Highlight opacity");
+        tab.addDoubleSpinner(data.highlightOpacity, 0, 1, 0.1, (e, v) -> {
+            data.highlightOpacity = v;
+            data.draw.repaint();
+        });
+        
+        tab.addSpace(2);
+        
+        tab.addLabel("Cluster Threshold");
+        tab.addDoubleSpinner(data.CLUSTERTHRESHOLD, 0, 1, 0.05, (e, v) -> {
+            data.CLUSTERTHRESHOLD = v;
+            data.getPatterns();
+            data.draw.repaint();
+        });
+        tab.addLabel("BiCluster Threshold");
+        tab.addDoubleSpinner(data.BICLUSTERTHRESHOLD, 0, 1, 0.05, (e, v) -> {
+            data.BICLUSTERTHRESHOLD = v;
+            data.getPatterns();
+            data.draw.repaint();
+        });
+        tab.addLabel("Star Threshold");
+        tab.addDoubleSpinner(data.STARTHRESHOLD, 0, 1, 0.05, (e, v) -> {
+            data.STARTHRESHOLD = v;
+            data.getPatterns();
+            data.draw.repaint();
+        });
+        
+        tab.addSpace(2);
+        
         tab.addLabel("Matrix Settings:");
         tab.addCheckbox("boring method", data.boring, (e, v) -> {
             data.boring = v;
@@ -110,10 +143,39 @@ public class SidePanel extends TabbedSidePanel {
             data.showmoran = v;
             data.draw.repaint();
         });
-        tab.addLabel("Matrix Settings:");
-        tab.addLabel("vertexsize");
+        tab.addLabel("NL Settings:");
+        tab.addCheckbox("Orthogonal Edges", data.orthogonalEdges, (e, v) -> {
+            data.orthogonalEdges = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("vertex size");
         tab.addDoubleSpinner(data.vertexsize, 0, Double.MAX_VALUE, 1, (e, v) -> {
             data.vertexsize = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("corner size");
+        tab.addDoubleSpinner(data.cornerSize, 0, Double.MAX_VALUE, 1, (e, v) -> {
+            data.cornerSize = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("distance increment");
+        tab.addIntegerSpinner(data.distanceIncrement, 0, Integer.MAX_VALUE, 1, (e, v) -> {
+            data.distanceIncrement = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("Edge Space Percent");
+        tab.addDoubleSpinner(data.edgeSpacePercentage, 0, Double.MAX_VALUE, 0.1, (e, v) -> {
+            data.edgeSpacePercentage = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("White Edge Padding");
+        tab.addDoubleSpinner(data.edgeCasing, 0, Double.MAX_VALUE, 0.1, (e, v) -> {
+            data.edgeCasing = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("Straight Edge Opacity");
+        tab.addDoubleSpinner(data.straightEdgeOpacity, 0, Double.MAX_VALUE, 0.1, (e, v) -> {
+            data.straightEdgeOpacity = v;
             data.draw.repaint();
         });
     }

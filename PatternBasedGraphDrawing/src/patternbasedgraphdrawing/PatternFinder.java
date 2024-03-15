@@ -16,15 +16,13 @@ public class PatternFinder {
     
     Matrix matrix;
     
-    double CLUSTERTHRESHOLD = 0.8;
-    double BICLUSTERTHRESHOLD = 0.8;
-    double STARTHRESHOLD = 0.8;
+    
     
     public PatternFinder(Matrix matrix){
         this.matrix = matrix;
     }
     
-    public ArrayList<PatternRectangle> getPatterns(boolean perm){
+    public ArrayList<PatternRectangle> getPatterns(boolean perm, double CLUSTERTHRESHOLD, double BICLUSTERTHRESHOLD, double STARTHRESHOLD){
         ArrayList<PatternRectangle> patterns = new ArrayList<>();
         
         // === Clusters ===
@@ -55,7 +53,7 @@ public class PatternFinder {
             if(bestJ > 0){
                 PatternRectangle cluster = new PatternRectangle(i,i,width,width,bestScore);
                 cluster.setCluster();
-                patterns.add(cluster);
+                addNotContaining(patterns,cluster);
             }
         }
         
@@ -76,9 +74,6 @@ public class PatternFinder {
                             blackCells++;
                         }
                     }
-                }
-                if(i == 9 && j == 20){
-                    System.out.println("Issue");
                 }
                 int bestWidth = -1;
                 int bestHeight = -1;
@@ -136,9 +131,9 @@ public class PatternFinder {
                 }
                 // As of now, take the largest possible biCluster
                 if(bestWidth > 0){
-                    PatternRectangle cluster = new PatternRectangle(i,j,bestWidth,bestHeight,bestScore);
-                    cluster.setBiCluster();
-                    patterns.add(cluster);
+                    PatternRectangle biCluster = new PatternRectangle(i,j,bestWidth,bestHeight,bestScore);
+                    biCluster.setBiCluster();
+                    addNotContaining(patterns,biCluster);
                 }
                 
             }
@@ -164,7 +159,7 @@ public class PatternFinder {
                     int width = i - firstI;
                     PatternRectangle star = new PatternRectangle(firstI,0,width,matrix.n,width * width);
                     star.setStar();
-                    patterns.add(star);
+                    addNotContaining(patterns,star);
                 }
                 firstI = i+1;
                 inStar = false;
@@ -173,6 +168,15 @@ public class PatternFinder {
         
         
         return patterns;
+    }
+    
+    private void addNotContaining(ArrayList<PatternRectangle> currentPatterns, PatternRectangle toAdd){
+        for (PatternRectangle pattern : currentPatterns) {
+            if(pattern.contains(toAdd) && pattern.score >= toAdd.score){
+                return;
+            }
+        }
+        currentPatterns.add(toAdd);
     }
     
     private double blackCellClusterPercentage(int blackCells, int width){

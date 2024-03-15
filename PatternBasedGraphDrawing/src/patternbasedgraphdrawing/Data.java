@@ -62,8 +62,27 @@ public class Data {
     boolean permute = true;
     boolean horizontal_layout = true;
     boolean write_timestep = true;
+    boolean highlightPatterns = true;
+    double highlightOpacity = 0.4;
+    
+    double CLUSTERTHRESHOLD = 0.9;
+    double BICLUSTERTHRESHOLD = 0.9;
+    double STARTHRESHOLD = 0.9;
     
     double vertexsize = 9;
+    
+    double edgeSpacePercentage = 0.9;
+    
+    double cornerSize = 4;
+    int distanceIncrement = (int)cornerSize;
+    double edgeCasing = 10 * stroke;
+    
+    double straightEdgeOpacity = 1;
+    
+    int randSeed = 2345;
+    
+    boolean orthogonalEdges = true;
+    boolean coincidingEdges = true;
     
     DrawPanel draw = new DrawPanel(this);
     SidePanel side = new SidePanel(this);
@@ -86,10 +105,7 @@ public class Data {
         if (r == JFileChooser.APPROVE_OPTION) {
             try (BufferedReader read = new BufferedReader(new FileReader(choose.getSelectedFile()))) {
                 matrix = IO.loadMatrices(read).get(0);
-                PatternFinder pf = new PatternFinder(matrix);
-                ArrayList<PatternRectangle> allPatterns = pf.getPatterns(permute);
-                MWISSolver mwis = new MWISSolver();
-                patterns = mwis.solve(allPatterns);
+                getPatterns();
                 draw.repaint();
             } catch (IOException ex) {
                 Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);
@@ -166,6 +182,16 @@ public class Data {
         System.out.println("];");
     }
 
+    void getPatterns(){
+        PatternFinder pf = new PatternFinder(matrix);
+        System.out.println("Finding Patterns");
+        ArrayList<PatternRectangle> allPatterns = pf.getPatterns(permute, CLUSTERTHRESHOLD, BICLUSTERTHRESHOLD, STARTHRESHOLD);
+        MWISSolver mwis = new MWISSolver(allPatterns,randSeed);
+        System.out.println("Running MWIS solver (" + allPatterns.size() + ")");
+        patterns = mwis.solve();
+        System.out.println("Found " + patterns.size() + " independent patterns");
+    }
+    
     void writeIPE(IPEWriter write, boolean filemode) throws IOException {
 //        write.setView(Rectangle.byCenterAndSize(new Vector(875.0,53.5),1620.0,93.0));
         write.initialize("\\renewcommand\\familydefault{\\sfdefault}");

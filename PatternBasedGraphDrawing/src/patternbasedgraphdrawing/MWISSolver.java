@@ -7,6 +7,13 @@ package patternbasedgraphdrawing;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Random;
+import java.util.Stack;
+import java.util.stream.IntStream;
 
 /**
  *
@@ -19,7 +26,9 @@ import java.util.Arrays;
 
 
 public class MWISSolver {
+    ArrayList<PatternRectangle> allPatterns;
     
+    // Only for exact solving
     PatternRectangle[] candidates;
     
     ArrayList<ArrayList<Integer>> adjacencyList;
@@ -27,18 +36,33 @@ public class MWISSolver {
     double bestScore = 0;
     ArrayList<PatternRectangle> bestSet;
     
+    // For VND-ILS (see https://doi.org/10.1007/s11590-017-1128-7 for variable meaning)
+    int randSeed;
+    int c1 = 1;
+    int c2 = 1;
+    int c3 = 1;
+    int c4 = 1;
+    
+    Random random;
+    
+    HashMap<Integer,Double> mu = new HashMap<>();
     
     // Todo: split into connected components! Important
+
+    public MWISSolver(ArrayList<PatternRectangle> allPatterns, int randSeed) {
+        this.allPatterns = allPatterns;
+        this.randSeed = randSeed;
+    }
     
     
-    public ArrayList<PatternRectangle> solve(ArrayList<PatternRectangle> input){
-        this.candidates = new PatternRectangle[input.size()];
-        input.toArray(candidates);;
+    
+    public ArrayList<PatternRectangle> solve(){
+        this.candidates = new PatternRectangle[allPatterns.size()];
+        allPatterns.toArray(candidates);;
         fillAdjacencyList();
         boolean[] independent = new boolean[candidates.length];
         Arrays.fill(independent, true);
         recursiveBacktrack(0, new ArrayList<>(), 0, independent);
-        printResults();
         return bestSet;
     }
     
@@ -57,6 +81,10 @@ public class MWISSolver {
     }
     
     public void printResults(){
+        if(bestSet == null){
+            System.out.println("Set is empty");
+            return;
+        }
         System.out.println("Score: " + bestScore);
         System.out.println("In the best set:");
         for (int i = 0; i < bestSet.size(); i++) {
@@ -79,8 +107,11 @@ public class MWISSolver {
         }
     }
     
+    
+    
     /**
      * Exactly solves the MWIS problem with recursive backtracking
+     * Runs in O(2^n) 💀
      * @param index: index from which we consider rectangles
      * @param currSet: current set
      * @param currScore: current score
@@ -123,6 +154,158 @@ public class MWISSolver {
                 
             }
         }
+    }
+    
+    // Below is a hybrid iterated local search heuristic
+    // Nogueira, Bruno, Rian GS Pinheiro, and Anand Subramanian. 
+    // "A hybrid iterated local search heuristic for the maximum weight independent set problem." 
+    // Optimization Letters 12 (2018): 567-583.
+    public void ILS_VND(int maxIter){
+        random = new Random(randSeed);
+        
+        fillAdjacencyList();
+        
+        //Init mu
+        for (int i = 0; i < allPatterns.size(); i++) {
+            mu.put(i, allPatterns.get(i).score);
+        }
+        
+        HashSet<Integer> s0 = initialize();
+        
+        HashSet<Integer> s = localSearch(s0);
+        
+    }
+    
+    public HashSet<Integer> localSearch(HashSet<Integer> currentSolution){
+        int k = 1;
+        while(k <= 2){
+            HashSet<Integer> sPrime;
+            ArrayList<Integer> notIn = notInSolution(currentSolution);
+            
+            // Shuffle all indices to check them in random order
+            List<Integer> toImprove = IntStream.range(0, allPatterns.size()).boxed().toList();
+            Collections.shuffle(toImprove, random);
+            
+            for (Integer i : notIn) {
+                if(mu.get(i) > 0){
+                    // Remove overlapping and add i???
+                }
+            }
+        }
+    }
+    
+    // We may assume currentSolution is sorted
+    public ArrayList<Integer> notInSolution(HashSet<Integer> currentSolution){
+        ArrayList<Integer> notIn = new ArrayList<>();
+        for (int i = 0; i < allPatterns.size(); i++) {
+            if(!currentSolution.contains(i)){
+                notIn.add(i);
+            }
+            
+        }
+        return notIn;
+    }
+    
+    public HashSet<Integer> perturb(int k, HashSet<Integer> currentSolution){
+        // Add c1 random vertices not yet in there,
+        Stack<Integer> notIn = new Stack<>();
+        notIn.addAll(notInSolution(currentSolution));
+        
+        Collections.shuffle(notIn,random);
+        
+        ArrayList<Integer> toAdd = new ArrayList<>();
+        
+        // Decide on vertices to be added
+        for (int i = 0; i < k; i++) {
+            toAdd.add(notIn.pop());
+        }
+        
+        // Remove overlapping
+        for (Integer i : currentSolution) {
+            for (Integer checkOverlapI : toAdd) {
+                PatternRectangle checkOverlap = allPatterns.get(checkOverlapI);
+                if(checkOverlap.overlaps(allPatterns.get(i))){
+                    remove(currentSolution,i);
+                    break;
+                }    
+            }
+        }
+        // Add perturbation
+        insert(currentSolution, toAdd);
+        // Add free vertices
+        return addFreeVertices(currentSolution);
+    }
+    
+    public void insert(HashSet<Integer> currentSolution, ArrayList<Integer> insertion){
+        for (Integer i : insertion) {
+            insert(currentSolution, i);
+        }
+    }
+    
+    // Insert, but keep it sorted
+    public void insert(HashSet<Integer> currentSolution, int insertion){
+        PatternRectangle rect = allPatterns.get(insertion);
+        
+        currentSolution.add(insertion);
+        
+        for (Integer neighbour : adjacencyList.get(insertion)) {
+            mu.put(neighbour, mu.get(neighbour) - rect.score);
+        }
+    }
+    
+    public void remove(HashSet<Integer> currentSolution, ArrayList<Integer> removal){
+        for (Integer i : removal) {
+            insert(currentSolution, i);
+        }
+    }
+    
+    public void remove(HashSet<Integer> currentSolution, int removal){
+        PatternRectangle rect = allPatterns.get(removal);
+        currentSolution.remove(removal);
+        for (Integer neighbour : adjacencyList.get(removal)) {
+            mu.put(neighbour, mu.get(neighbour) + rect.score);
+        }
+    }
+    
+    public HashSet<Integer> initialize(){
+        return addFreeVertices(new HashSet<>());
+        
+    }
+    
+    public HashSet<Integer> addFreeVertices(HashSet<Integer> currentSolution){
+        ArrayList<Integer> availableIndices = new ArrayList<>();
+        // Check for each pattern(index) whether it overlaps with one in the current solution. If not, add it to availableIndices.
+        for (int i = 0; i < allPatterns.size(); i++) {
+            boolean free = true;
+            for(Integer toCheck : currentSolution){
+                
+                if(allPatterns.get(i).overlaps(allPatterns.get(toCheck))){
+                    free = false;
+                }
+            }
+            if(free){
+                availableIndices.add(i);
+            }
+        }
+        
+        HashSet<Integer> result = new HashSet<>();
+        result.addAll(currentSolution);
+        
+        // Randomly put in free vertices and update availableIndices
+        while(availableIndices.size() > 0){
+            ArrayList<Integer> newIndices = new ArrayList<>();
+            int ind = availableIndices.get(random.nextInt(availableIndices.size()));
+            insert(result,ind);
+            for (Integer check : availableIndices) {
+                if(!allPatterns.get(check).overlaps(allPatterns.get(ind))){
+                    newIndices.add(check);
+                }
+            }
+            availableIndices = newIndices;
+            
+        }
+        return result;
+        
     }
     
 }
