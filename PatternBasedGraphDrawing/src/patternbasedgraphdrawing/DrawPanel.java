@@ -25,6 +25,7 @@ import nl.tue.geometrycore.geometry.linear.LineSegment;
 import nl.tue.geometrycore.geometry.linear.Polygon;
 import nl.tue.geometrycore.geometry.linear.Rectangle;
 import nl.tue.geometrycore.geometry.mix.GeometryCycle;
+import nl.tue.geometrycore.geometry.mix.GeometryGroup;
 import nl.tue.geometrycore.geometryrendering.GeometryPanel;
 import nl.tue.geometrycore.geometryrendering.styling.Dashing;
 import nl.tue.geometrycore.geometryrendering.styling.ExtendedColors;
@@ -55,6 +56,8 @@ public class DrawPanel extends GeometryPanel {
     
     // Bends should not be affected by casing
     ArrayList<CircularArc> bends = new ArrayList<>();
+    
+    double EPSILON = 0.0001;
     
     DrawPanel(Data data) {
         this.data = data;
@@ -215,6 +218,28 @@ public class DrawPanel extends GeometryPanel {
         HashSet<Integer> upClusterVertices = new HashSet<>();
         HashSet<Integer> downClusterVertices = new HashSet<>();
         
+        HashSet<Integer> fullVertices = new HashSet<>();
+        HashSet<Integer> partialVertices = new HashSet<>();
+        for (PatternRectangle rect : data.patterns) {
+            switch (rect.pattern){
+                case CLUSTER -> {
+                    for (int i = rect.i; i < rect.i+rect.h; i++) {
+                        boolean connected = true;
+                        for (int j = rect.i; j < rect.i+rect.h; j++) {
+                            if(j != i && !data.matrix.cell(i, j, data.permute)){
+                                connected = false;
+                            }
+                        }
+                        if(connected){
+                            fullVertices.add(permuteIndex(i));
+                        }else{
+                            partialVertices.add(permuteIndex(i));
+                        }
+                    }
+                }
+            }
+        }
+        
         bends = new ArrayList<>();
         
         determineUpDownVertices(m,data.patterns,upClusterVertices,downClusterVertices);
@@ -231,12 +256,46 @@ public class DrawPanel extends GeometryPanel {
                         Vector topLeftCircle = Vector.add(lefttop, Vector.multiply((double)rect.i+0.5,deltaCell));
                         Vector bottomRightCircle = Vector.add(lefttop, Vector.multiply((double)(rect.i+rect.h-1)+0.5,deltaCell));
                         Vector centerCircle = Vector.interpolate(topLeftCircle, bottomRightCircle, 0.5);
+                        topLeftCircle = Vector.interpolate(centerCircle, topLeftCircle, data.clusterScaling);
+                        bottomRightCircle = Vector.interpolate(centerCircle, bottomRightCircle, data.clusterScaling);
                         // Scale to use the incircle of the square instead of excircle
                         topLeftCircle = Vector.interpolate(centerCircle, topLeftCircle, 1/Math.sqrt(2));
                         bottomRightCircle = Vector.interpolate(centerCircle, bottomRightCircle, 1/Math.sqrt(2));
                         
                         Circle c = Circle.byDiametricPoints(topLeftCircle, bottomRightCircle);
-                         
+                        
+                        rect.highlight = c;
+                        
+                        // We are going to make two circular arcs
+                        
+                        /* nvm
+                        CircularArc upArc;
+                        CircularArc downArc;
+                        
+                        Vector upArcCenter = new Vector(-1,-1);
+                        upArcCenter.normalize();
+                        upArcCenter = Vector.multiply(centerCircle.distanceTo(topLeftCircle)/Math.tan(Math.PI*data.clusterCircularity/2), upArcCenter);
+                        
+                        Vector downArcCenter = upArcCenter.clone();
+                        downArcCenter = Vector.rotate(downArcCenter, Math.PI);
+                        
+                        upArcCenter.translate(centerCircle);
+                        downArcCenter.translate(centerCircle);
+                        
+                        upArc = new CircularArc(upArcCenter,topLeftCircle,bottomRightCircle,false);
+                        downArc = new CircularArc(downArcCenter,topLeftCircle,bottomRightCircle,true);
+                        
+                        
+                        List<CircularArc> arcs = new ArrayList<>();
+                        
+                        arcs.add(upArc);
+                        arcs.add(downArc);
+                        
+                        GeometryCycle<CircularArc> highlight = new GeometryCycle(arcs);
+                        
+                        rect.highlight = highlight;
+                        */
+                        
 //                        int sign = 1;
 //                        
 //                        // The code below makes a k-gon, but the order of vertices follows the diagonal
@@ -246,22 +305,54 @@ public class DrawPanel extends GeometryPanel {
 //                            vertexLocation.put(permuteIndex(rect.i+i), loc);
 //                            sign *= -1;
 //                        }
-                        int upCount = 0;
-                        int downCount = 1;
+                        
+                        Vector upLoc = topLeftCircle.clone();
+                        Vector downLoc = topLeftCircle.clone();
+                        
+                        int upTotal = 0;
+                        int downTotal = 0;
                         for (int i = 0; i < rect.w; i++) {
-                            Vector loc = topLeftCircle.clone();
                             if(upClusterVertices.contains(permuteIndex(rect.i+i))){
+                                upTotal++;
+                            }
+                            else if(downClusterVertices.contains(permuteIndex(rect.i+i))){
+                                downTotal++;
+                            }
+                        }
+                        
+                        
+                        // Circular
+//                        int upCount = 0;
+//                        int downCount = 1;
+//                        for (int i = 0; i < rect.w; i++) {
+//                            Vector loc = topLeftCircle.clone();
+//                            if(upClusterVertices.contains(permuteIndex(rect.i+i))){
+//                                // Rotate clockwise
+//                                loc.rotate((double) (-1 * upCount) * 2*Math.PI/(double)rect.w, centerCircle);
+//                                upCount++;
+//                            }
+//                            else if(downClusterVertices.contains(permuteIndex(rect.i+i))){
+//                                // Rotate counter-clockerwise
+//                                loc.rotate((double) (downCount) * 2*Math.PI/(double)rect.w, centerCircle);
+//                                downCount++;
+//                            }
+//                            vertexLocation.put(permuteIndex(rect.i+i), loc);
+//                        }
+                        for (int i = 0; i < rect.w; i++) {
+                            if(upClusterVertices.contains(permuteIndex(rect.i+i))){
+                                vertexLocation.put(permuteIndex(rect.i+i), upLoc.clone());
                                 // Rotate clockwise
-                                loc.rotate((double) (-1 * upCount) * 2*Math.PI/(double)rect.w, centerCircle);
-                                upCount++;
+                                upLoc.rotate((double) (-1*data.clusterCircularity) * Math.PI/(double)upTotal, c.getCenter()); //, upArcCenter);
                             }
                             else if(downClusterVertices.contains(permuteIndex(rect.i+i))){
                                 // Rotate counter-clockerwise
-                                loc.rotate((double) (downCount) * 2*Math.PI/(double)rect.w, centerCircle);
-                                downCount++;
+                                downLoc.rotate(data.clusterCircularity * Math.PI/(double)downTotal, c.getCenter()); //, downArcCenter);
+                                
+                                vertexLocation.put(permuteIndex(rect.i+i), downLoc.clone());
                             }
-                            vertexLocation.put(permuteIndex(rect.i+i), loc);
+                            
                         }
+                        
                         
                     }
                     else{
@@ -304,20 +395,11 @@ public class DrawPanel extends GeometryPanel {
                 vertexLocation.put(permuteIndex(i),loc);
             }
         }
-        // Now that ALL vertex locations are known: find pattern shapes:
+        // Now that ALL vertex locations are known: find pattern shapes for relevant patterns
         for (PatternRectangle rect : data.patterns) {
             switch (rect.pattern){
                 case CLUSTER -> {
                     // Already handled previously
-                    Vector topLeftCircle = Vector.add(lefttop, Vector.multiply((double)rect.i+0.5,deltaCell));
-                    Vector bottomRightCircle = Vector.add(lefttop, Vector.multiply((double)(rect.i+rect.h-1)+0.5,deltaCell));
-                    Vector centerCircle = Vector.interpolate(topLeftCircle, bottomRightCircle, 0.5);
-                    // Scale to use the incircle of the square instead of excircle
-                    topLeftCircle = Vector.interpolate(centerCircle, topLeftCircle, 1/Math.sqrt(2));
-                    bottomRightCircle = Vector.interpolate(centerCircle, bottomRightCircle, 1/Math.sqrt(2));
-
-                    Circle c = Circle.byDiametricPoints(topLeftCircle, bottomRightCircle);
-                    rect.highlight = c;
                 }
                 case BICLUSTER -> {
                     // We assume the bi-cluster is already chosen in such a way that no overlap occurs
@@ -358,28 +440,14 @@ public class DrawPanel extends GeometryPanel {
             }
         }
         
-        // Mapping to extra bend vectors
-        HashMap<Integer,Vector> bendPoints = new HashMap<>();
-        HashSet<Integer> horizontal = new HashSet<>();
-        HashSet<Integer> vertical = new HashSet<>();
-        
-        // Determine Vector for vertices if necessary
-        for (int i = 0; i < data.matrix.cols.length; i++) {
-            int vertex = permuteIndex(i);
-            if(!upClusterVertices.contains(vertex) && !downClusterVertices.contains(vertex)){
-                horizontal.add(i*(int)data.cellsize);
-                vertical.add(i*(int)data.cellsize);
-            }
-            
-        }
-        
+        /*
         // Determine Vector for vertices if necessary and if orthogonal edges
         if(data.orthogonalEdges){
             for (int i = 0; i < data.matrix.cols.length; i++) {
                 int vertex = permuteIndex(i);
                 PatternRectangle pattern;
                 for (PatternRectangle check : data.patterns) {
-                    if(i >= check.j && i < check.j + check.w-1){
+                    if(i >= check.j && i < check.j + check.w-1 && false){ // TODO we dont do this in this case
                         pattern = check;
                         if(upClusterVertices.contains(vertex)){
                             for (int dist = i * (int)data.cellsize; dist > (int)data.cellsize*-data.matrix.cols.length ; dist-=data.distanceIncrement) {
@@ -422,6 +490,7 @@ public class DrawPanel extends GeometryPanel {
 
             }
         }
+        */
         // Edges
         setStroke(Color.black, data.stroke, Dashing.SOLID);
         setAlpha(1);
@@ -442,7 +511,7 @@ public class DrawPanel extends GeometryPanel {
         // Not symmetric for edges that cross the diagonal
         int[][] distanceMatrix = new int[m.cols.length][m.rows.length]; 
         
-        // Determine Edge Distance and Up/Down, for distance reason, we move away from the diagonal.
+        // Determine Edge Distance and Up/Down, for distance reason, we move away from the diagonal. ONLY FOR DIAGONAL EDGE LAYOUT
         
         HashMap<Integer,ArrayList<Edge>> heightLooseEdges = new HashMap<>();
         
@@ -547,6 +616,149 @@ public class DrawPanel extends GeometryPanel {
         }
         
         
+        // Mapping to extra bend vectors
+        HashMap<Integer,Vector> outgoingBendPoints = new HashMap<>();
+        HashMap<Integer,Vector> incomingBendPoints = new HashMap<>();
+        HashMap<Integer,Vector> crossingPoints = new HashMap<>();
+        
+        for (int i = 0; i < data.matrix.n; i++) {
+            outgoingBendPoints.put(i, vertexLocation.get(i));
+            incomingBendPoints.put(i, vertexLocation.get(i));
+        }
+        
+        // Determine Bend Vectors for vertices in clusters
+        for (PatternRectangle rect : data.patterns) {
+            switch (rect.pattern){
+                case CLUSTER -> {
+                    
+                    ArrayList<Integer> over = new ArrayList<>();
+                    ArrayList<Integer> under = new ArrayList<>();
+                    ArrayList<Integer> left = new ArrayList<>();
+                    ArrayList<Integer> right = new ArrayList<>();
+                    
+                    ArrayList<Integer> vertCrossings = new ArrayList<>();
+                    ArrayList<Integer> horCrossings = new ArrayList<>();
+                    
+                    // Filling over and under left and right
+                    Circle circle = (Circle) rect.highlight;
+                    for (int i = rect.i; i < rect.i+rect.h; i++) {
+                        int vertex = permuteIndex(i);
+                        
+                        // Check for diagonal crossing edges
+                        for (int j = rect.i+rect.h; j < data.matrix.cols.length; j++) {
+                            if(data.matrix.cell(i, j, data.permute) && distanceMatrix[i][j] != distanceMatrix[j][i]){
+                                if(upClusterVertices.contains(i)){
+                                    vertCrossings.add(vertex);
+                                }
+                                else{
+                                    horCrossings.add(vertex);
+                                }
+                                break;
+                            }
+                        }
+                        
+                        if(upClusterVertices.contains(vertex)){
+                            Vector loc1 = vertexLocation.get(vertex).clone();
+                            loc1.translate(EPSILON, 0);
+                            if(circle.contains(loc1)){
+                                // Check if there are right-going edges
+                                for (int j = rect.i+rect.h; j < data.matrix.cols.length; j++) {
+                                    if(data.matrix.cell(i, j, data.permute)){
+                                        over.add(vertex);
+                                        break;
+                                    }
+                                }
+                            }
+                            Vector loc2 = vertexLocation.get(vertex).clone();
+                            loc2.translate(0, EPSILON);
+                            if(circle.contains(loc2)){
+                                // Check if there are right-going edges
+                                for (int j = rect.i-1; j >= 0; j--) {
+                                    if(data.matrix.cell(i, j, data.permute)){
+                                        right.add(vertex);
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                        if(downClusterVertices.contains(vertex)){
+                            Vector loc1 = vertexLocation.get(vertex).clone();
+                            loc1.translate(-EPSILON, 0);
+                            if(circle.contains(loc1)){
+                                // Check if there are right-going edges
+                                for (int j = rect.i-1; j >= 0; j--) {
+                                    if(data.matrix.cell(i, j, data.permute)){
+                                        under.add(vertex);
+                                        break;
+                                    }
+                                }
+                            }
+                            Vector loc2 = vertexLocation.get(vertex).clone();
+                            loc2.translate(0,-EPSILON);
+                            if(circle.contains(loc2)){
+                                // Check if there are right-going edges
+                                for (int j = rect.i+rect.h; j < data.matrix.cols.length; j++) {
+                                    if(data.matrix.cell(i, j, data.permute)){
+                                        left.add(vertex);
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                    // Divide over and under edges
+                    Vector prevLoc = Vector.add(lefttop.clone(),Vector.multiply((rect.i-0.5),deltaCell));
+                    prevLoc.translate(data.vertexsize, -data.vertexsize);
+                    Vector firstLoc = Vector.add(lefttop.clone(),Vector.multiply((rect.i+0.5),deltaCell));
+                    firstLoc.translate(-data.vertexsize, data.vertexsize);
+                    Vector lastLoc = Vector.add(lefttop.clone(),Vector.multiply((rect.i+rect.w-0.5),deltaCell));
+                    lastLoc.translate(data.vertexsize, -data.vertexsize);
+                    
+                    
+                    double deltaOver = (prevLoc.getY() - firstLoc.getY()) /(over.size()+1);
+                    for (int i = 0; i < over.size(); i++) {
+                        int vertex = over.get(i);
+                        Vector bend = new Vector(vertexLocation.get(vertex).getX(),prevLoc.getY() - (1+i)*deltaOver);
+                        outgoingBendPoints.put(vertex, bend);
+                    }
+                    double deltaUnder = (prevLoc.getY() - firstLoc.getY()) /(under.size()+horCrossings.size()+1);
+                    for (int i = 0; i < under.size(); i++) {
+                        int vertex = under.get(i);
+                        Vector bend = new Vector(vertexLocation.get(vertex).getX(),lastLoc.getY() - (1+i)*deltaUnder);
+                        incomingBendPoints.put(vertex, bend);
+                    }
+                    for (int i = under.size(); i < under.size()+horCrossings.size(); i++) {
+                        int vertex = horCrossings.get(i);
+//                        draw(new Circle(lastLoc,1));
+                        Vector cross = new Vector(lastLoc.getX() + (1+i)*deltaUnder,lastLoc.getY() - (1+i)*deltaUnder);
+//                        draw(new Circle(cross,1));
+                        crossingPoints.put(vertex, cross);
+                    }
+                    
+                    double deltaLeft = (prevLoc.getY() - firstLoc.getY()) /(left.size()+1);
+                    for (int i = 0; i < left.size(); i++) {
+                        int vertex = left.get(i);
+                        Vector bend = new Vector(prevLoc.getX() + (1+i)*deltaLeft,vertexLocation.get(vertex).getY());
+                        outgoingBendPoints.put(vertex, bend);
+                    }
+                    double deltaRight = (prevLoc.getY() - firstLoc.getY()) /(right.size()+vertCrossings.size()+1);
+                    for (int i = 0; i < right.size(); i++) {
+                        int vertex = right.get(i);
+                        Vector bend = new Vector(lastLoc.getX() + (1+i)*deltaRight,vertexLocation.get(vertex).getY());
+                        incomingBendPoints.put(vertex, bend);
+                    }
+                    for (int i = right.size(); i < right.size()+vertCrossings.size(); i++) {
+                        int vertex = vertCrossings.get(i);
+//                        draw(new Circle(lastLoc,1));
+                        Vector cross = new Vector(lastLoc.getX() + (1+i)*deltaRight,lastLoc.getY() - (1+i)*deltaRight);
+//                        draw(new Circle(cross,1));
+                        crossingPoints.put(vertex, cross);
+                    }
+                }
+            }
+        }
+        
         Vector generalLeftExtreme = new Vector(-1,1);
         generalLeftExtreme.normalize();
         generalLeftExtreme.scale(data.vertexsize * data.edgeSpacePercentage * 0.5);
@@ -611,7 +823,7 @@ public class DrawPanel extends GeometryPanel {
                     
                     Vector rEndPoint = Vector.interpolate(r1, r2, ((double)edgeListR.indexOf(c)+1)/((double)edgeListR.size() + 1));
                     
-                    if(distanceMatrix[r][c] != distanceMatrix[c][r]){
+                    if(distanceMatrix[r][c] != distanceMatrix[c][r]){ // TODO for now lets not do crossing edges
                         // We are drawing a crossing edge
                         int indexAfterPattern = rPattern.j+rPattern.w;
                         
@@ -638,9 +850,21 @@ public class DrawPanel extends GeometryPanel {
                         }
                         if(data.orthogonalEdges){
                             // Determine crossing point between i and i+1
-                            for (int i = r; i < c; i++) {
+                            Vector crossing = crossingPoints.get(permuteIndex(r));
+                            
+                            drawOrthogonalEdge(diagonal, rEndPoint, crossing, outgoingBendPoints.get(permuteIndex(r)), crossing, distance > 0);
+                            drawOrthogonalEdge(diagonal, crossing, cEndPoint, crossing, incomingBendPoints.get(permuteIndex(c)), distance < 0);
+                            
+                            // Overrule casing
+                            setStroke(Color.black, data.stroke, Dashing.SOLID);
+                            if(upClusterVertices.contains(permuteIndex(r))){
                                 
+                                draw(new LineSegment(new Vector(crossing.getX(),crossing.getY()+data.edgeCasing+1),new Vector(crossing.getX(),crossing.getY()-data.edgeCasing+1)));
                             }
+                            else{
+                                draw(new LineSegment(new Vector(crossing.getX()+data.edgeCasing+1,crossing.getY()),new Vector(crossing.getX()-data.edgeCasing+1,crossing.getY())));
+                            }
+                            
 //                            drawOrthogonalEdge(diagonal,rEndPoint,connector,bendPoints.get(permuteIndex(r)),connector,distanceMatrix[r][c] > 0);
 //                            drawOrthogonalEdge(diagonal,connector,cEndPoint,connector,bendPoints.get(permuteIndex(c)) ,distanceMatrix[c][r] > 0);
                         }
@@ -658,7 +882,7 @@ public class DrawPanel extends GeometryPanel {
                             draw(new LineSegment(locR,locC));
                         }
                         else if(data.orthogonalEdges){
-                            drawOrthogonalEdge(diagonal, rEndPoint, cEndPoint, bendPoints.get(permuteIndex(r)), bendPoints.get(permuteIndex(c)), distance > 0);
+                            drawOrthogonalEdge(diagonal, rEndPoint, cEndPoint, outgoingBendPoints.get(permuteIndex(r)), incomingBendPoints.get(permuteIndex(c)), distance > 0);
                         }
                         else{
                             drawParallelEdge(diagonal,rEndPoint,cEndPoint,distance);
@@ -730,8 +954,14 @@ public class DrawPanel extends GeometryPanel {
             // Vertex p_i (permuted) is placed at location i,i
             Vector loc = vertexLocation.get(permuteIndex(i));
             Circle node = new Circle(loc,data.vertexsize/2);
-            setFill(ExtendedColors.lightGray, Hashures.SOLID);
+            setFill(ExtendedColors.white, Hashures.SOLID);
             setStroke(Color.black, data.stroke, Dashing.SOLID);
+            
+            // Between .2 and .5
+            
+            if(partialVertices.contains(permuteIndex(i))){
+                setFill(Color.lightGray, Hashures.SOLID);
+            }
             draw(node);
             this.setTextStyle(TextAnchor.CENTER, data.textsize);
             draw(loc,m.cols[i]);
@@ -1013,8 +1243,8 @@ public class DrawPanel extends GeometryPanel {
         for (int i = 1; i < points.size(); i++) {
             Vector prev = points.get(i-1);
             Vector current = points.get(i);
-            Vector a = Vector.interpolate(prev.clone(), current.clone(), data.cornerSize/prev.distanceTo(current));
-            Vector b = Vector.interpolate(current.clone(),prev.clone(), data.cornerSize/prev.distanceTo(current));
+            Vector a = i==1?prev.clone():Vector.interpolate(prev.clone(), current.clone(), data.cornerSize/prev.distanceTo(current));
+            Vector b = i==points.size()-1?current.clone():Vector.interpolate(current.clone(),prev.clone(), data.cornerSize/prev.distanceTo(current));
             res.add(new LineSegment(a,b));
             if(i < points.size()-1){
                 // We add a bend for the next one

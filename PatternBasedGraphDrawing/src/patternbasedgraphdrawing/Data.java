@@ -49,7 +49,7 @@ public class Data {
     double cellsize = 9;
     double labeloffset = 3;
     double stroke = 0.2;
-    double textsize = 6;
+    double textsize = 5;
     boolean boring = true;
     double gray = 0.5;
     String format = "0.00";
@@ -69,7 +69,7 @@ public class Data {
     double BICLUSTERTHRESHOLD = 0.9;
     double STARTHRESHOLD = 0.9;
     
-    double vertexsize = 9;
+    double vertexsize = 7;
     
     double edgeSpacePercentage = 0.9;
     
@@ -78,6 +78,9 @@ public class Data {
     double edgeCasing = 10 * stroke;
     
     double straightEdgeOpacity = 1;
+    
+    double clusterScaling = 1;
+    double clusterCircularity = 1;
     
     int randSeed = 2345;
     
@@ -188,7 +191,12 @@ public class Data {
         ArrayList<PatternRectangle> allPatterns = pf.getPatterns(permute, CLUSTERTHRESHOLD, BICLUSTERTHRESHOLD, STARTHRESHOLD);
         MWISSolver mwis = new MWISSolver(allPatterns,randSeed);
         System.out.println("Running MWIS solver (" + allPatterns.size() + ")");
-        patterns = mwis.solve();
+        if(matrix.n > 40){
+            patterns = mwis.ILS_VND(10000);
+        }
+        else{
+            patterns = mwis.solve();
+        }
         System.out.println("Found " + patterns.size() + " independent patterns");
     }
     

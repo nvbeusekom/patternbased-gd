@@ -39,9 +39,9 @@ public class MWISSolver {
     // For VND-ILS (see https://doi.org/10.1007/s11590-017-1128-7 for variable meaning)
     int randSeed;
     int c1 = 1;
-    int c2 = 1;
-    int c3 = 1;
-    int c4 = 1;
+    int c2 = 3;
+    int c3 = 4;
+    int c4 = 2;
     
     Random random;
     
@@ -160,7 +160,7 @@ public class MWISSolver {
     // Nogueira, Bruno, Rian GS Pinheiro, and Anand Subramanian. 
     // "A hybrid iterated local search heuristic for the maximum weight independent set problem." 
     // Optimization Letters 12 (2018): 567-583.
-    public void ILS_VND(int maxIter){
+    public ArrayList<PatternRectangle> ILS_VND(int maxIter){
         random = new Random(randSeed);
         
         fillAdjacencyList();
@@ -174,12 +174,92 @@ public class MWISSolver {
         
         HashSet<Integer> s = localSearch(s0);
         
+        HashSet<Integer> sStar = new HashSet<>(s);
+        
+        double localBestW = getTotalScore(s);
+        
+        int iter = 1;
+        
+        int i = 1;
+        
+        AcceptanceTuple acc;
+        
+        while(iter < maxIter){
+            HashSet sPrime = perturb(c1,s);
+            
+            sPrime = localSearch(sPrime);
+            
+            acc = acceptance(s,sStar,sPrime,i,localBestW);
+            s = acc.s;
+            sStar = acc.sStar;
+            i = acc.i;
+            localBestW = acc.localBestW;
+            
+            iter++;
+        }
+        
+        // return sStar
+        ArrayList<PatternRectangle> res = new ArrayList<>();
+        for(Integer key : sStar){
+            res.add(allPatterns.get(key));
+        }
+        return res;
+        
     }
+    
+    class AcceptanceTuple{
+        HashSet<Integer> s;
+        HashSet<Integer> sStar;
+        int i;
+        double localBestW;
+
+        public AcceptanceTuple(HashSet<Integer> s, HashSet<Integer> sStar, int i, double localBestW) {
+            this.s = s;
+            this.sStar = sStar;
+            this.i = i;
+            this.localBestW = localBestW;
+        }
+        
+    }
+    
+    public AcceptanceTuple acceptance(HashSet<Integer> s, HashSet<Integer> sStar, HashSet<Integer> sPrime, int i, double localBestW){
+        if(getTotalScore(s) < getTotalScore(sPrime)){
+            s = sPrime;
+            i = 1;
+            double score = getTotalScore(s);
+            if(localBestW < score){
+                localBestW = score;
+                i = i - (s.size()/c2);
+            }
+            if(getTotalScore(sStar) < score){
+                sStar = new HashSet<>(s);
+                i = i - (s.size() * c3);
+            }
+        }
+        else if(i < s.size()/c2){
+            i = i+1;
+        }
+        else{
+            localBestW = getTotalScore(s);
+            s = perturb(c4,s);
+            i = 1;
+        }
+        return new AcceptanceTuple(s,sStar,i,localBestW);
+    }
+    
+    public double getTotalScore(HashSet<Integer> solution){
+        double total = 0;
+        for (Integer i : solution) {
+            total += allPatterns.get(i).score;
+        }
+        return total;
+    }
+    
     
     public HashSet<Integer> localSearch(HashSet<Integer> currentSolution){
         int k = 1;
         while(k <= 2){
-            HashSet<Integer> sPrime;
+            HashSet<Integer> sPrime = new HashSet(currentSolution);
             ArrayList<Integer> notIn = notInSolution(currentSolution);
             
             // Shuffle all indices to check them in random order
@@ -187,11 +267,38 @@ public class MWISSolver {
             Collections.shuffle(toImprove, random);
             
             for (Integer i : notIn) {
+                // (omega,1) swap
                 if(mu.get(i) > 0){
                     // Remove overlapping and add i???
+                    for (Integer neighbour : adjacencyList.get(i)){
+                        if(sPrime.contains(neighbour)){
+                            sPrime.remove(neighbour);
+                            // Update mu each removal
+                            for (Integer gamma : adjacencyList.get(neighbour)) {
+                                mu.put(gamma, mu.get(gamma) + allPatterns.get(neighbour).score);
+                            }
+                            
+                        }
+                        // Update mu insertion
+                        mu.put(neighbour, mu.get(neighbour) - allPatterns.get(i).score);
+                        
+                    }
+                    sPrime.add(i);
+                    break;
                 }
             }
+            if(getTotalScore(sPrime) <= getTotalScore(currentSolution)){
+                k++;
+            }
+            else{
+                k=1;
+                currentSolution = sPrime;
+                currentSolution = addFreeVertices(currentSolution);
+            }
         }
+        
+        
+        return currentSolution;
     }
     
     // We may assume currentSolution is sorted

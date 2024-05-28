@@ -144,13 +144,24 @@ public class SidePanel extends TabbedSidePanel {
             data.draw.repaint();
         });
         tab.addLabel("NL Settings:");
-        tab.addCheckbox("Orthogonal Edges", data.orthogonalEdges, (e, v) -> {
-            data.orthogonalEdges = v;
-            data.draw.repaint();
-        });
         tab.addLabel("vertex size");
         tab.addDoubleSpinner(data.vertexsize, 0, Double.MAX_VALUE, 1, (e, v) -> {
             data.vertexsize = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("Cluster scaling");
+        tab.addDoubleSpinner(data.clusterScaling, 0, Double.MAX_VALUE, 0.1, (e, v) -> {
+            data.clusterScaling = v;
+            data.draw.repaint();
+        });
+        tab.addLabel("Cluster Circularity");
+        tab.addDoubleSpinner(data.clusterCircularity, 0, Double.MAX_VALUE, 0.1, (e, v) -> {
+            data.clusterCircularity = v;
+            data.draw.repaint();
+        });
+        
+        tab.addCheckbox("Orthogonal Edges", data.orthogonalEdges, (e, v) -> {
+            data.orthogonalEdges = v;
             data.draw.repaint();
         });
         tab.addLabel("corner size");
@@ -177,6 +188,7 @@ public class SidePanel extends TabbedSidePanel {
         tab.addDoubleSpinner(data.straightEdgeOpacity, 0, Double.MAX_VALUE, 0.1, (e, v) -> {
             data.straightEdgeOpacity = v;
             data.draw.repaint();
+            
         });
     }
 
