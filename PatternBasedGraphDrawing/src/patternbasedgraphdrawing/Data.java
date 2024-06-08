@@ -49,7 +49,7 @@ public class Data {
     double cellsize = 9;
     double labeloffset = 3;
     double stroke = 0.2;
-    double textsize = 5;
+    double textsize = 4;
     boolean boring = true;
     double gray = 0.5;
     String format = "0.00";
@@ -57,19 +57,21 @@ public class Data {
     boolean columnlabels = true;
     boolean rowlabels = true;
     boolean showmoran = false;
-    double hspace = 20;
+    double hspace = 15;
     double vspace = 10;
     boolean permute = true;
     boolean horizontal_layout = true;
     boolean write_timestep = true;
     boolean highlightPatterns = true;
     double highlightOpacity = 0.4;
+    boolean vertexLabels = true;
+    boolean patternless = false;
     
     double CLUSTERTHRESHOLD = 0.9;
     double BICLUSTERTHRESHOLD = 0.9;
     double STARTHRESHOLD = 0.9;
     
-    double vertexsize = 7;
+    double vertexsize = 6;
     
     double edgeSpacePercentage = 0.9;
     
@@ -186,13 +188,20 @@ public class Data {
     }
 
     void getPatterns(){
+        if(patternless){
+            patterns = new ArrayList<>();
+            return;
+        }
         PatternFinder pf = new PatternFinder(matrix);
         System.out.println("Finding Patterns");
         ArrayList<PatternRectangle> allPatterns = pf.getPatterns(permute, CLUSTERTHRESHOLD, BICLUSTERTHRESHOLD, STARTHRESHOLD);
+        for (PatternRectangle p : allPatterns) {
+            System.out.println(p.toString());
+        }
         MWISSolver mwis = new MWISSolver(allPatterns,randSeed);
         System.out.println("Running MWIS solver (" + allPatterns.size() + ")");
-        if(matrix.n > 40){
-            patterns = mwis.ILS_VND(10000);
+        if(matrix.n > 100){
+            patterns = mwis.ILS_VND(1000);
         }
         else{
             patterns = mwis.solve();
@@ -205,7 +214,8 @@ public class Data {
         write.initialize("\\renewcommand\\familydefault{\\sfdefault}");
         Rectangle bbox = draw.getBoundingRectangle();
         bbox.grow(10);
-        write.setView(new Rectangle(0,398,0,IPEWriter.getA4Size().getTop()));
+        Rectangle a4 = IPEWriter.getA4Size();
+        write.setView(bbox);
         write.setWorldview(bbox);
         write.setTextSerifs(true);
         write.configureTextHandling(true, textsize, false);

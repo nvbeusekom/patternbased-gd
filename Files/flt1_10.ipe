@@ -1,0 +1,10164 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70218" creator="Ipe 7.2.24">
+<info created="D:20100909134504" modified="D:20240606150956"/>
+<ipestyle name="GeometryCoreExport">
+<color name="CB dark blue" value="0.121 0.47 0.705"/>
+<color name="CB dark green" value="0.2 0.627 0.172"/>
+<color name="CB dark orange" value="1 0.498 0"/>
+<color name="CB dark purple" value="0.415 0.239 0.603"/>
+<color name="CB dark red" value="0.89 0.101 0.109"/>
+<color name="CB light blue" value="0.65 0.807 0.89"/>
+<color name="CB light green" value="0.698 0.874 0.541"/>
+<color name="CB light orange" value="0.992 0.749 0.435"/>
+<color name="CB light purple" value="0.792 0.698 0.839"/>
+<color name="CB light red" value="0.984 0.603 0.6"/>
+<color name="black" value="0"/>
+<color name="blue" value="0 0 1"/>
+<color name="brown" value="0.643 0.164 0.164"/>
+<color name="darkblue" value="0 0 0.541"/>
+<color name="darkcyan" value="0 0.541 0.541"/>
+<color name="darkgray" value="0.662"/>
+<color name="darkgreen" value="0 0.388 0"/>
+<color name="darkmagenta" value="0.541 0 0.541"/>
+<color name="darkorange" value="1 0.545 0"/>
+<color name="darkred" value="0.541 0 0"/>
+<color name="gold" value="1 0.839 0"/>
+<color name="gray" value="0.741"/>
+<color name="green" value="0 1 0"/>
+<color name="lightblue" value="0.674 0.843 0.901"/>
+<color name="lightcyan" value="0.874 1 1"/>
+<color name="lightgray" value="0.823"/>
+<color name="lightgreen" value="0.564 0.929 0.564"/>
+<color name="lightyellow" value="1 1 0.874"/>
+<color name="navy" value="0 0 0.501"/>
+<color name="orange" value="1 0.643 0"/>
+<color name="pink" value="1 0.752 0.792"/>
+<color name="purple" value="0.623 0.121 0.937"/>
+<color name="red" value="1 0 0"/>
+<color name="seagreen" value="0.176 0.541 0.337"/>
+<color name="turquoise" value="0.25 0.874 0.815"/>
+<color name="violet" value="0.929 0.509 0.929"/>
+<color name="white" value="1"/>
+<color name="yellow" value="1 1 0"/>
+<dashstyle name="W dashed fat" value="[3.0 5.1] 0"/>
+<dashstyle name="W dashed heavier" value="[2.0 3.0] 0"/>
+<dashstyle name="W dashed normal" value="[1.0 1.7] 0"/>
+<dashstyle name="W dashed ultrafat" value="[5.0 8.5] 0"/>
+<dashstyle name="W dot fat" value="[0.01 2.4] 0"/>
+<dashstyle name="W dot heavier" value="[0.01 1.6] 0"/>
+<dashstyle name="W dot normal" value="[0.01 0.8] 0"/>
+<dashstyle name="W dot ultrafat" value="[0.01 4.0] 0"/>
+<dashstyle name="dash dot dotted" value="[4.0 2.0 1.0 2.0 1.0 2.0] 0"/>
+<dashstyle name="dash dotted" value="[4.0 2.0 1.0 2.0] 0"/>
+<dashstyle name="dashed" value="[4.0] 0"/>
+<dashstyle name="dotted" value="[1.0 3.0] 0"/>
+<opacity name="10%" value="0.1"/>
+<opacity name="100%" value="1"/>
+<opacity name="20%" value="0.2"/>
+<opacity name="25%" value="0.25"/>
+<opacity name="30%" value="0.3"/>
+<opacity name="40%" value="0.4"/>
+<opacity name="50%" value="0.5"/>
+<opacity name="60%" value="0.6"/>
+<opacity name="70%" value="0.75"/>
+<opacity name="80%" value="0.8"/>
+<opacity name="90%" value="0.9"/>
+<opacity name="opaque" value="1"/>
+<pen name="fat" value="1.2"/>
+<pen name="heavier" value="0.8"/>
+<pen name="normal" value="0.4"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="normal" value="3"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<preamble>\renewcommand\familydefault{\sfdefault}</preamble>
+<layout paper="595 842" origin="0 0" frame="595 842"/>
+</ipestyle>
+<page>
+<layer name="default"/>
+<view layers="default" active="default"/>
+<path layer="default" stroke="0.501" fill="black" pen="0.05">
+20 104 m
+23 104 l
+23 107 l
+20 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 101 m
+23 101 l
+23 104 l
+20 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 98 m
+23 98 l
+23 101 l
+20 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 95 m
+23 95 l
+23 98 l
+20 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 92 m
+23 92 l
+23 95 l
+20 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 89 m
+23 89 l
+23 92 l
+20 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 86 m
+23 86 l
+23 89 l
+20 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 83 m
+23 83 l
+23 86 l
+20 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 80 m
+23 80 l
+23 83 l
+20 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 77 m
+23 77 l
+23 80 l
+20 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 74 m
+23 74 l
+23 77 l
+20 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 71 m
+23 71 l
+23 74 l
+20 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 68 m
+23 68 l
+23 71 l
+20 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 65 m
+23 65 l
+23 68 l
+20 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 62 m
+23 62 l
+23 65 l
+20 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 59 m
+23 59 l
+23 62 l
+20 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 56 m
+23 56 l
+23 59 l
+20 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 53 m
+23 53 l
+23 56 l
+20 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+20 50 m
+23 50 l
+23 53 l
+20 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 104 m
+26 104 l
+26 107 l
+23 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 101 m
+26 101 l
+26 104 l
+23 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 98 m
+26 98 l
+26 101 l
+23 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 95 m
+26 95 l
+26 98 l
+23 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 92 m
+26 92 l
+26 95 l
+23 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 89 m
+26 89 l
+26 92 l
+23 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 86 m
+26 86 l
+26 89 l
+23 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 83 m
+26 83 l
+26 86 l
+23 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 80 m
+26 80 l
+26 83 l
+23 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 77 m
+26 77 l
+26 80 l
+23 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 74 m
+26 74 l
+26 77 l
+23 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 71 m
+26 71 l
+26 74 l
+23 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 68 m
+26 68 l
+26 71 l
+23 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 65 m
+26 65 l
+26 68 l
+23 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 62 m
+26 62 l
+26 65 l
+23 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 59 m
+26 59 l
+26 62 l
+23 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 56 m
+26 56 l
+26 59 l
+23 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 53 m
+26 53 l
+26 56 l
+23 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+23 50 m
+26 50 l
+26 53 l
+23 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 104 m
+29 104 l
+29 107 l
+26 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 101 m
+29 101 l
+29 104 l
+26 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 98 m
+29 98 l
+29 101 l
+26 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 95 m
+29 95 l
+29 98 l
+26 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 92 m
+29 92 l
+29 95 l
+26 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 89 m
+29 89 l
+29 92 l
+26 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 86 m
+29 86 l
+29 89 l
+26 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 83 m
+29 83 l
+29 86 l
+26 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 80 m
+29 80 l
+29 83 l
+26 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 77 m
+29 77 l
+29 80 l
+26 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 74 m
+29 74 l
+29 77 l
+26 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 71 m
+29 71 l
+29 74 l
+26 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 68 m
+29 68 l
+29 71 l
+26 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 65 m
+29 65 l
+29 68 l
+26 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 62 m
+29 62 l
+29 65 l
+26 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 59 m
+29 59 l
+29 62 l
+26 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 56 m
+29 56 l
+29 59 l
+26 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 53 m
+29 53 l
+29 56 l
+26 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+26 50 m
+29 50 l
+29 53 l
+26 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 104 m
+32 104 l
+32 107 l
+29 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 101 m
+32 101 l
+32 104 l
+29 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 98 m
+32 98 l
+32 101 l
+29 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 95 m
+32 95 l
+32 98 l
+29 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 92 m
+32 92 l
+32 95 l
+29 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 89 m
+32 89 l
+32 92 l
+29 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 86 m
+32 86 l
+32 89 l
+29 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 83 m
+32 83 l
+32 86 l
+29 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 80 m
+32 80 l
+32 83 l
+29 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 77 m
+32 77 l
+32 80 l
+29 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 74 m
+32 74 l
+32 77 l
+29 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 71 m
+32 71 l
+32 74 l
+29 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 68 m
+32 68 l
+32 71 l
+29 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 65 m
+32 65 l
+32 68 l
+29 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 62 m
+32 62 l
+32 65 l
+29 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 59 m
+32 59 l
+32 62 l
+29 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 56 m
+32 56 l
+32 59 l
+29 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 53 m
+32 53 l
+32 56 l
+29 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+29 50 m
+32 50 l
+32 53 l
+29 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 104 m
+35 104 l
+35 107 l
+32 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 101 m
+35 101 l
+35 104 l
+32 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 98 m
+35 98 l
+35 101 l
+32 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 95 m
+35 95 l
+35 98 l
+32 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 92 m
+35 92 l
+35 95 l
+32 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 89 m
+35 89 l
+35 92 l
+32 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 86 m
+35 86 l
+35 89 l
+32 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 83 m
+35 83 l
+35 86 l
+32 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 80 m
+35 80 l
+35 83 l
+32 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 77 m
+35 77 l
+35 80 l
+32 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 74 m
+35 74 l
+35 77 l
+32 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 65 m
+35 65 l
+35 68 l
+32 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 62 m
+35 62 l
+35 65 l
+32 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 59 m
+35 59 l
+35 62 l
+32 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 32 m
+35 32 l
+35 35 l
+32 35 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+32 29 m
+35 29 l
+35 32 l
+32 32 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 104 m
+38 104 l
+38 107 l
+35 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 101 m
+38 101 l
+38 104 l
+35 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 98 m
+38 98 l
+38 101 l
+35 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 95 m
+38 95 l
+38 98 l
+35 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 92 m
+38 92 l
+38 95 l
+35 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 89 m
+38 89 l
+38 92 l
+35 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 86 m
+38 86 l
+38 89 l
+35 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 83 m
+38 83 l
+38 86 l
+35 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 80 m
+38 80 l
+38 83 l
+35 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 77 m
+38 77 l
+38 80 l
+35 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 74 m
+38 74 l
+38 77 l
+35 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 71 m
+38 71 l
+38 74 l
+35 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 68 m
+38 68 l
+38 71 l
+35 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 65 m
+38 65 l
+38 68 l
+35 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 62 m
+38 62 l
+38 65 l
+35 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 59 m
+38 59 l
+38 62 l
+35 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 32 m
+38 32 l
+38 35 l
+35 35 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 29 m
+38 29 l
+38 32 l
+35 32 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+35 26 m
+38 26 l
+38 29 l
+35 29 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 104 m
+41 104 l
+41 107 l
+38 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 101 m
+41 101 l
+41 104 l
+38 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 98 m
+41 98 l
+41 101 l
+38 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 95 m
+41 95 l
+41 98 l
+38 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 92 m
+41 92 l
+41 95 l
+38 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 89 m
+41 89 l
+41 92 l
+38 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 86 m
+41 86 l
+41 89 l
+38 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 83 m
+41 83 l
+41 86 l
+38 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 80 m
+41 80 l
+41 83 l
+38 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 77 m
+41 77 l
+41 80 l
+38 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 74 m
+41 74 l
+41 77 l
+38 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 71 m
+41 71 l
+41 74 l
+38 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 68 m
+41 68 l
+41 71 l
+38 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 65 m
+41 65 l
+41 68 l
+38 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 62 m
+41 62 l
+41 65 l
+38 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 59 m
+41 59 l
+41 62 l
+38 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+38 56 m
+41 56 l
+41 59 l
+38 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 104 m
+44 104 l
+44 107 l
+41 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 101 m
+44 101 l
+44 104 l
+41 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 98 m
+44 98 l
+44 101 l
+41 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 95 m
+44 95 l
+44 98 l
+41 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 92 m
+44 92 l
+44 95 l
+41 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 89 m
+44 89 l
+44 92 l
+41 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 86 m
+44 86 l
+44 89 l
+41 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 83 m
+44 83 l
+44 86 l
+41 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 80 m
+44 80 l
+44 83 l
+41 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 77 m
+44 77 l
+44 80 l
+41 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 74 m
+44 74 l
+44 77 l
+41 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 71 m
+44 71 l
+44 74 l
+41 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 68 m
+44 68 l
+44 71 l
+41 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 65 m
+44 65 l
+44 68 l
+41 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 62 m
+44 62 l
+44 65 l
+41 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 59 m
+44 59 l
+44 62 l
+41 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 56 m
+44 56 l
+44 59 l
+41 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+41 53 m
+44 53 l
+44 56 l
+41 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 104 m
+47 104 l
+47 107 l
+44 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 101 m
+47 101 l
+47 104 l
+44 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 98 m
+47 98 l
+47 101 l
+44 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 95 m
+47 95 l
+47 98 l
+44 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 92 m
+47 92 l
+47 95 l
+44 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 89 m
+47 89 l
+47 92 l
+44 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 86 m
+47 86 l
+47 89 l
+44 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 83 m
+47 83 l
+47 86 l
+44 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 80 m
+47 80 l
+47 83 l
+44 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 77 m
+47 77 l
+47 80 l
+44 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 74 m
+47 74 l
+47 77 l
+44 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 71 m
+47 71 l
+47 74 l
+44 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 68 m
+47 68 l
+47 71 l
+44 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 65 m
+47 65 l
+47 68 l
+44 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 62 m
+47 62 l
+47 65 l
+44 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 59 m
+47 59 l
+47 62 l
+44 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 56 m
+47 56 l
+47 59 l
+44 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+44 53 m
+47 53 l
+47 56 l
+44 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 104 m
+50 104 l
+50 107 l
+47 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 101 m
+50 101 l
+50 104 l
+47 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 98 m
+50 98 l
+50 101 l
+47 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 95 m
+50 95 l
+50 98 l
+47 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 92 m
+50 92 l
+50 95 l
+47 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 89 m
+50 89 l
+50 92 l
+47 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 86 m
+50 86 l
+50 89 l
+47 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 83 m
+50 83 l
+50 86 l
+47 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 80 m
+50 80 l
+50 83 l
+47 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 77 m
+50 77 l
+50 80 l
+47 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 74 m
+50 74 l
+50 77 l
+47 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 71 m
+50 71 l
+50 74 l
+47 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 68 m
+50 68 l
+50 71 l
+47 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 65 m
+50 65 l
+50 68 l
+47 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 62 m
+50 62 l
+50 65 l
+47 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 59 m
+50 59 l
+50 62 l
+47 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 56 m
+50 56 l
+50 59 l
+47 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+47 53 m
+50 53 l
+50 56 l
+47 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 104 m
+53 104 l
+53 107 l
+50 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 101 m
+53 101 l
+53 104 l
+50 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 98 m
+53 98 l
+53 101 l
+50 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 95 m
+53 95 l
+53 98 l
+50 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 92 m
+53 92 l
+53 95 l
+50 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 89 m
+53 89 l
+53 92 l
+50 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 86 m
+53 86 l
+53 89 l
+50 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 83 m
+53 83 l
+53 86 l
+50 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 80 m
+53 80 l
+53 83 l
+50 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 77 m
+53 77 l
+53 80 l
+50 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 74 m
+53 74 l
+53 77 l
+50 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 71 m
+53 71 l
+53 74 l
+50 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 68 m
+53 68 l
+53 71 l
+50 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 65 m
+53 65 l
+53 68 l
+50 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 62 m
+53 62 l
+53 65 l
+50 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 59 m
+53 59 l
+53 62 l
+50 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 56 m
+53 56 l
+53 59 l
+50 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+50 53 m
+53 53 l
+53 56 l
+50 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 104 m
+56 104 l
+56 107 l
+53 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 101 m
+56 101 l
+56 104 l
+53 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 98 m
+56 98 l
+56 101 l
+53 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 95 m
+56 95 l
+56 98 l
+53 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 89 m
+56 89 l
+56 92 l
+53 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 86 m
+56 86 l
+56 89 l
+53 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 83 m
+56 83 l
+56 86 l
+53 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 80 m
+56 80 l
+56 83 l
+53 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 77 m
+56 77 l
+56 80 l
+53 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 74 m
+56 74 l
+56 77 l
+53 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 71 m
+56 71 l
+56 74 l
+53 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 68 m
+56 68 l
+56 71 l
+53 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 65 m
+56 65 l
+56 68 l
+53 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 62 m
+56 62 l
+56 65 l
+53 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 59 m
+56 59 l
+56 62 l
+53 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 56 m
+56 56 l
+56 59 l
+53 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+53 53 m
+56 53 l
+56 56 l
+53 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 104 m
+59 104 l
+59 107 l
+56 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 101 m
+59 101 l
+59 104 l
+56 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 98 m
+59 98 l
+59 101 l
+56 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 95 m
+59 95 l
+59 98 l
+56 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 89 m
+59 89 l
+59 92 l
+56 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 86 m
+59 86 l
+59 89 l
+56 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 83 m
+59 83 l
+59 86 l
+56 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 80 m
+59 80 l
+59 83 l
+56 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 77 m
+59 77 l
+59 80 l
+56 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 74 m
+59 74 l
+59 77 l
+56 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 71 m
+59 71 l
+59 74 l
+56 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 68 m
+59 68 l
+59 71 l
+56 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 65 m
+59 65 l
+59 68 l
+56 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 62 m
+59 62 l
+59 65 l
+56 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 59 m
+59 59 l
+59 62 l
+56 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 56 m
+59 56 l
+59 59 l
+56 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 53 m
+59 53 l
+59 56 l
+56 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+56 50 m
+59 50 l
+59 53 l
+56 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 104 m
+62 104 l
+62 107 l
+59 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 101 m
+62 101 l
+62 104 l
+59 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 98 m
+62 98 l
+62 101 l
+59 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 95 m
+62 95 l
+62 98 l
+59 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 92 m
+62 92 l
+62 95 l
+59 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 89 m
+62 89 l
+62 92 l
+59 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 86 m
+62 86 l
+62 89 l
+59 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 83 m
+62 83 l
+62 86 l
+59 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 80 m
+62 80 l
+62 83 l
+59 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 77 m
+62 77 l
+62 80 l
+59 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 74 m
+62 74 l
+62 77 l
+59 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 71 m
+62 71 l
+62 74 l
+59 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 68 m
+62 68 l
+62 71 l
+59 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 65 m
+62 65 l
+62 68 l
+59 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 62 m
+62 62 l
+62 65 l
+59 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 59 m
+62 59 l
+62 62 l
+59 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 56 m
+62 56 l
+62 59 l
+59 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 53 m
+62 53 l
+62 56 l
+59 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 50 m
+62 50 l
+62 53 l
+59 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+59 47 m
+62 47 l
+62 50 l
+59 50 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 104 m
+65 104 l
+65 107 l
+62 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 101 m
+65 101 l
+65 104 l
+62 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 98 m
+65 98 l
+65 101 l
+62 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 95 m
+65 95 l
+65 98 l
+62 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 92 m
+65 92 l
+65 95 l
+62 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 89 m
+65 89 l
+65 92 l
+62 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 86 m
+65 86 l
+65 89 l
+62 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 83 m
+65 83 l
+65 86 l
+62 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 80 m
+65 80 l
+65 83 l
+62 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 77 m
+65 77 l
+65 80 l
+62 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 74 m
+65 74 l
+65 77 l
+62 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 71 m
+65 71 l
+65 74 l
+62 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 68 m
+65 68 l
+65 71 l
+62 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 65 m
+65 65 l
+65 68 l
+62 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 62 m
+65 62 l
+65 65 l
+62 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 59 m
+65 59 l
+65 62 l
+62 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 56 m
+65 56 l
+65 59 l
+62 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 53 m
+65 53 l
+65 56 l
+62 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 50 m
+65 50 l
+65 53 l
+62 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+62 47 m
+65 47 l
+65 50 l
+62 50 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 104 m
+68 104 l
+68 107 l
+65 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 101 m
+68 101 l
+68 104 l
+65 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 98 m
+68 98 l
+68 101 l
+65 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 95 m
+68 95 l
+68 98 l
+65 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 92 m
+68 92 l
+68 95 l
+65 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 89 m
+68 89 l
+68 92 l
+65 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 86 m
+68 86 l
+68 89 l
+65 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 83 m
+68 83 l
+68 86 l
+65 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 80 m
+68 80 l
+68 83 l
+65 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 77 m
+68 77 l
+68 80 l
+65 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 74 m
+68 74 l
+68 77 l
+65 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 71 m
+68 71 l
+68 74 l
+65 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 68 m
+68 68 l
+68 71 l
+65 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 65 m
+68 65 l
+68 68 l
+65 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 62 m
+68 62 l
+68 65 l
+65 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 59 m
+68 59 l
+68 62 l
+65 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 56 m
+68 56 l
+68 59 l
+65 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 53 m
+68 53 l
+68 56 l
+65 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 50 m
+68 50 l
+68 53 l
+65 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+65 47 m
+68 47 l
+68 50 l
+65 50 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 104 m
+71 104 l
+71 107 l
+68 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 101 m
+71 101 l
+71 104 l
+68 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 98 m
+71 98 l
+71 101 l
+68 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 95 m
+71 95 l
+71 98 l
+68 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 86 m
+71 86 l
+71 89 l
+68 89 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 83 m
+71 83 l
+71 86 l
+68 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 80 m
+71 80 l
+71 83 l
+68 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 77 m
+71 77 l
+71 80 l
+68 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 74 m
+71 74 l
+71 77 l
+68 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 71 m
+71 71 l
+71 74 l
+68 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 68 m
+71 68 l
+71 71 l
+68 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 65 m
+71 65 l
+71 68 l
+68 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 62 m
+71 62 l
+71 65 l
+68 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 59 m
+71 59 l
+71 62 l
+68 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 56 m
+71 56 l
+71 59 l
+68 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 53 m
+71 53 l
+71 56 l
+68 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 50 m
+71 50 l
+71 53 l
+68 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+68 47 m
+71 47 l
+71 50 l
+68 50 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 104 m
+74 104 l
+74 107 l
+71 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 101 m
+74 101 l
+74 104 l
+71 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 98 m
+74 98 l
+74 101 l
+71 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 95 m
+74 95 l
+74 98 l
+71 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 83 m
+74 83 l
+74 86 l
+71 86 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 80 m
+74 80 l
+74 83 l
+71 83 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 77 m
+74 77 l
+74 80 l
+71 80 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 74 m
+74 74 l
+74 77 l
+71 77 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 71 m
+74 71 l
+74 74 l
+71 74 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 68 m
+74 68 l
+74 71 l
+71 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 65 m
+74 65 l
+74 68 l
+71 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 62 m
+74 62 l
+74 65 l
+71 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 59 m
+74 59 l
+74 62 l
+71 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 56 m
+74 56 l
+74 59 l
+71 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 53 m
+74 53 l
+74 56 l
+71 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 50 m
+74 50 l
+74 53 l
+71 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 47 m
+74 47 l
+74 50 l
+71 50 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 44 m
+74 44 l
+74 47 l
+71 47 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+71 41 m
+74 41 l
+74 44 l
+71 44 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 104 m
+77 104 l
+77 107 l
+74 107 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 101 m
+77 101 l
+77 104 l
+74 104 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 98 m
+77 98 l
+77 101 l
+74 101 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 95 m
+77 95 l
+77 98 l
+74 98 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 68 m
+77 68 l
+77 71 l
+74 71 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 65 m
+77 65 l
+77 68 l
+74 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 62 m
+77 62 l
+77 65 l
+74 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 59 m
+77 59 l
+77 62 l
+74 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 56 m
+77 56 l
+77 59 l
+74 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 53 m
+77 53 l
+77 56 l
+74 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 50 m
+77 50 l
+77 53 l
+74 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 47 m
+77 47 l
+77 50 l
+74 50 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+74 44 m
+77 44 l
+77 47 l
+74 47 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+77 65 m
+80 65 l
+80 68 l
+77 68 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+77 62 m
+80 62 l
+80 65 l
+77 65 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+77 59 m
+80 59 l
+80 62 l
+77 62 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+77 56 m
+80 56 l
+80 59 l
+77 59 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+77 53 m
+80 53 l
+80 56 l
+77 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+77 50 m
+80 50 l
+80 53 l
+77 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+77 47 m
+80 47 l
+80 50 l
+77 50 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+77 44 m
+80 44 l
+80 47 l
+77 47 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+80 53 m
+83 53 l
+83 56 l
+80 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+80 50 m
+83 50 l
+83 53 l
+80 53 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+80 47 m
+83 47 l
+83 50 l
+80 50 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+80 44 m
+83 44 l
+83 47 l
+80 47 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+83 53 m
+86 53 l
+86 56 l
+83 56 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+83 41 m
+86 41 l
+86 44 l
+83 44 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+86 38 m
+89 38 l
+89 41 l
+86 41 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+86 35 m
+89 35 l
+89 38 l
+86 38 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+89 38 m
+92 38 l
+92 41 l
+89 41 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+89 35 m
+92 35 l
+92 38 l
+89 38 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+89 32 m
+92 32 l
+92 35 l
+89 35 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+89 29 m
+92 29 l
+92 32 l
+89 32 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+92 92 m
+95 92 l
+95 95 l
+92 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+92 89 m
+95 89 l
+95 92 l
+92 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+92 35 m
+95 35 l
+95 38 l
+92 38 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+92 32 m
+95 32 l
+95 35 l
+92 35 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+92 29 m
+95 29 l
+95 32 l
+92 32 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+95 92 m
+98 92 l
+98 95 l
+95 95 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+95 89 m
+98 89 l
+98 92 l
+95 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+95 35 m
+98 35 l
+98 38 l
+95 38 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+95 32 m
+98 32 l
+98 35 l
+95 35 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+95 29 m
+98 29 l
+98 32 l
+95 32 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+95 26 m
+98 26 l
+98 29 l
+95 29 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+95 23 m
+98 23 l
+98 26 l
+95 26 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+98 89 m
+101 89 l
+101 92 l
+98 92 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+98 29 m
+101 29 l
+101 32 l
+98 32 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+98 26 m
+101 26 l
+101 29 l
+98 29 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+98 23 m
+101 23 l
+101 26 l
+98 26 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+101 29 m
+104 29 l
+104 32 l
+101 32 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+101 26 m
+104 26 l
+104 29 l
+101 29 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+101 23 m
+104 23 l
+104 26 l
+101 26 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+101 20 m
+104 20 l
+104 23 l
+101 23 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+104 23 m
+107 23 l
+107 26 l
+104 26 l
+h
+</path>
+<path stroke="0.501" fill="black" pen="0.05">
+104 20 m
+107 20 l
+107 23 l
+104 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 47 m
+23 47 l
+23 50 l
+20 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 44 m
+23 44 l
+23 47 l
+20 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 41 m
+23 41 l
+23 44 l
+20 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 38 m
+23 38 l
+23 41 l
+20 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 35 m
+23 35 l
+23 38 l
+20 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 32 m
+23 32 l
+23 35 l
+20 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 29 m
+23 29 l
+23 32 l
+20 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 26 m
+23 26 l
+23 29 l
+20 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 23 m
+23 23 l
+23 26 l
+20 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+20 20 m
+23 20 l
+23 23 l
+20 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 47 m
+26 47 l
+26 50 l
+23 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 44 m
+26 44 l
+26 47 l
+23 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 41 m
+26 41 l
+26 44 l
+23 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 38 m
+26 38 l
+26 41 l
+23 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 35 m
+26 35 l
+26 38 l
+23 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 32 m
+26 32 l
+26 35 l
+23 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 29 m
+26 29 l
+26 32 l
+23 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 26 m
+26 26 l
+26 29 l
+23 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 23 m
+26 23 l
+26 26 l
+23 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+23 20 m
+26 20 l
+26 23 l
+23 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 47 m
+29 47 l
+29 50 l
+26 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 44 m
+29 44 l
+29 47 l
+26 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 41 m
+29 41 l
+29 44 l
+26 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 38 m
+29 38 l
+29 41 l
+26 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 35 m
+29 35 l
+29 38 l
+26 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 32 m
+29 32 l
+29 35 l
+26 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 29 m
+29 29 l
+29 32 l
+26 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 26 m
+29 26 l
+29 29 l
+26 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 23 m
+29 23 l
+29 26 l
+26 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+26 20 m
+29 20 l
+29 23 l
+26 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 47 m
+32 47 l
+32 50 l
+29 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 44 m
+32 44 l
+32 47 l
+29 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 41 m
+32 41 l
+32 44 l
+29 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 38 m
+32 38 l
+32 41 l
+29 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 35 m
+32 35 l
+32 38 l
+29 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 32 m
+32 32 l
+32 35 l
+29 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 29 m
+32 29 l
+32 32 l
+29 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 26 m
+32 26 l
+32 29 l
+29 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 23 m
+32 23 l
+32 26 l
+29 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+29 20 m
+32 20 l
+32 23 l
+29 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 71 m
+35 71 l
+35 74 l
+32 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 68 m
+35 68 l
+35 71 l
+32 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 56 m
+35 56 l
+35 59 l
+32 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 53 m
+35 53 l
+35 56 l
+32 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 50 m
+35 50 l
+35 53 l
+32 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 47 m
+35 47 l
+35 50 l
+32 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 44 m
+35 44 l
+35 47 l
+32 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 41 m
+35 41 l
+35 44 l
+32 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 38 m
+35 38 l
+35 41 l
+32 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 35 m
+35 35 l
+35 38 l
+32 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 26 m
+35 26 l
+35 29 l
+32 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 23 m
+35 23 l
+35 26 l
+32 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+32 20 m
+35 20 l
+35 23 l
+32 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 56 m
+38 56 l
+38 59 l
+35 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 53 m
+38 53 l
+38 56 l
+35 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 50 m
+38 50 l
+38 53 l
+35 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 47 m
+38 47 l
+38 50 l
+35 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 44 m
+38 44 l
+38 47 l
+35 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 41 m
+38 41 l
+38 44 l
+35 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 38 m
+38 38 l
+38 41 l
+35 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 35 m
+38 35 l
+38 38 l
+35 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 23 m
+38 23 l
+38 26 l
+35 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+35 20 m
+38 20 l
+38 23 l
+35 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 53 m
+41 53 l
+41 56 l
+38 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 50 m
+41 50 l
+41 53 l
+38 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 47 m
+41 47 l
+41 50 l
+38 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 44 m
+41 44 l
+41 47 l
+38 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 41 m
+41 41 l
+41 44 l
+38 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 38 m
+41 38 l
+41 41 l
+38 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 35 m
+41 35 l
+41 38 l
+38 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 32 m
+41 32 l
+41 35 l
+38 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 29 m
+41 29 l
+41 32 l
+38 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 26 m
+41 26 l
+41 29 l
+38 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 23 m
+41 23 l
+41 26 l
+38 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+38 20 m
+41 20 l
+41 23 l
+38 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 50 m
+44 50 l
+44 53 l
+41 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 47 m
+44 47 l
+44 50 l
+41 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 44 m
+44 44 l
+44 47 l
+41 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 41 m
+44 41 l
+44 44 l
+41 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 38 m
+44 38 l
+44 41 l
+41 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 35 m
+44 35 l
+44 38 l
+41 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 32 m
+44 32 l
+44 35 l
+41 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 29 m
+44 29 l
+44 32 l
+41 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 26 m
+44 26 l
+44 29 l
+41 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 23 m
+44 23 l
+44 26 l
+41 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+41 20 m
+44 20 l
+44 23 l
+41 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 50 m
+47 50 l
+47 53 l
+44 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 47 m
+47 47 l
+47 50 l
+44 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 44 m
+47 44 l
+47 47 l
+44 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 41 m
+47 41 l
+47 44 l
+44 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 38 m
+47 38 l
+47 41 l
+44 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 35 m
+47 35 l
+47 38 l
+44 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 32 m
+47 32 l
+47 35 l
+44 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 29 m
+47 29 l
+47 32 l
+44 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 26 m
+47 26 l
+47 29 l
+44 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 23 m
+47 23 l
+47 26 l
+44 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+44 20 m
+47 20 l
+47 23 l
+44 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 50 m
+50 50 l
+50 53 l
+47 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 47 m
+50 47 l
+50 50 l
+47 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 44 m
+50 44 l
+50 47 l
+47 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 41 m
+50 41 l
+50 44 l
+47 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 38 m
+50 38 l
+50 41 l
+47 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 35 m
+50 35 l
+50 38 l
+47 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 32 m
+50 32 l
+50 35 l
+47 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 29 m
+50 29 l
+50 32 l
+47 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 26 m
+50 26 l
+50 29 l
+47 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 23 m
+50 23 l
+50 26 l
+47 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+47 20 m
+50 20 l
+50 23 l
+47 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 50 m
+53 50 l
+53 53 l
+50 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 47 m
+53 47 l
+53 50 l
+50 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 44 m
+53 44 l
+53 47 l
+50 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 41 m
+53 41 l
+53 44 l
+50 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 38 m
+53 38 l
+53 41 l
+50 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 35 m
+53 35 l
+53 38 l
+50 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 32 m
+53 32 l
+53 35 l
+50 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 29 m
+53 29 l
+53 32 l
+50 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 26 m
+53 26 l
+53 29 l
+50 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 23 m
+53 23 l
+53 26 l
+50 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+50 20 m
+53 20 l
+53 23 l
+50 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 92 m
+56 92 l
+56 95 l
+53 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 50 m
+56 50 l
+56 53 l
+53 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 47 m
+56 47 l
+56 50 l
+53 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 44 m
+56 44 l
+56 47 l
+53 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 41 m
+56 41 l
+56 44 l
+53 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 38 m
+56 38 l
+56 41 l
+53 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 35 m
+56 35 l
+56 38 l
+53 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 32 m
+56 32 l
+56 35 l
+53 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 29 m
+56 29 l
+56 32 l
+53 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 26 m
+56 26 l
+56 29 l
+53 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 23 m
+56 23 l
+56 26 l
+53 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+53 20 m
+56 20 l
+56 23 l
+53 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 92 m
+59 92 l
+59 95 l
+56 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 47 m
+59 47 l
+59 50 l
+56 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 44 m
+59 44 l
+59 47 l
+56 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 41 m
+59 41 l
+59 44 l
+56 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 38 m
+59 38 l
+59 41 l
+56 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 35 m
+59 35 l
+59 38 l
+56 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 32 m
+59 32 l
+59 35 l
+56 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 29 m
+59 29 l
+59 32 l
+56 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 26 m
+59 26 l
+59 29 l
+56 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 23 m
+59 23 l
+59 26 l
+56 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+56 20 m
+59 20 l
+59 23 l
+56 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 44 m
+62 44 l
+62 47 l
+59 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 41 m
+62 41 l
+62 44 l
+59 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 38 m
+62 38 l
+62 41 l
+59 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 35 m
+62 35 l
+62 38 l
+59 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 32 m
+62 32 l
+62 35 l
+59 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 29 m
+62 29 l
+62 32 l
+59 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 26 m
+62 26 l
+62 29 l
+59 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 23 m
+62 23 l
+62 26 l
+59 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+59 20 m
+62 20 l
+62 23 l
+59 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 44 m
+65 44 l
+65 47 l
+62 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 41 m
+65 41 l
+65 44 l
+62 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 38 m
+65 38 l
+65 41 l
+62 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 35 m
+65 35 l
+65 38 l
+62 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 32 m
+65 32 l
+65 35 l
+62 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 29 m
+65 29 l
+65 32 l
+62 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 26 m
+65 26 l
+65 29 l
+62 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 23 m
+65 23 l
+65 26 l
+62 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+62 20 m
+65 20 l
+65 23 l
+62 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 44 m
+68 44 l
+68 47 l
+65 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 41 m
+68 41 l
+68 44 l
+65 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 38 m
+68 38 l
+68 41 l
+65 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 35 m
+68 35 l
+68 38 l
+65 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 32 m
+68 32 l
+68 35 l
+65 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 29 m
+68 29 l
+68 32 l
+65 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 26 m
+68 26 l
+68 29 l
+65 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 23 m
+68 23 l
+68 26 l
+65 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+65 20 m
+68 20 l
+68 23 l
+65 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 92 m
+71 92 l
+71 95 l
+68 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 89 m
+71 89 l
+71 92 l
+68 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 44 m
+71 44 l
+71 47 l
+68 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 41 m
+71 41 l
+71 44 l
+68 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 38 m
+71 38 l
+71 41 l
+68 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 35 m
+71 35 l
+71 38 l
+68 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 32 m
+71 32 l
+71 35 l
+68 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 29 m
+71 29 l
+71 32 l
+68 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 26 m
+71 26 l
+71 29 l
+68 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 23 m
+71 23 l
+71 26 l
+68 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+68 20 m
+71 20 l
+71 23 l
+68 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 92 m
+74 92 l
+74 95 l
+71 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 89 m
+74 89 l
+74 92 l
+71 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 86 m
+74 86 l
+74 89 l
+71 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 38 m
+74 38 l
+74 41 l
+71 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 35 m
+74 35 l
+74 38 l
+71 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 32 m
+74 32 l
+74 35 l
+71 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 29 m
+74 29 l
+74 32 l
+71 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 26 m
+74 26 l
+74 29 l
+71 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 23 m
+74 23 l
+74 26 l
+71 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+71 20 m
+74 20 l
+74 23 l
+71 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 92 m
+77 92 l
+77 95 l
+74 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 89 m
+77 89 l
+77 92 l
+74 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 86 m
+77 86 l
+77 89 l
+74 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 83 m
+77 83 l
+77 86 l
+74 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 80 m
+77 80 l
+77 83 l
+74 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 77 m
+77 77 l
+77 80 l
+74 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 74 m
+77 74 l
+77 77 l
+74 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 71 m
+77 71 l
+77 74 l
+74 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 41 m
+77 41 l
+77 44 l
+74 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 38 m
+77 38 l
+77 41 l
+74 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 35 m
+77 35 l
+77 38 l
+74 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 32 m
+77 32 l
+77 35 l
+74 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 29 m
+77 29 l
+77 32 l
+74 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 26 m
+77 26 l
+77 29 l
+74 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 23 m
+77 23 l
+77 26 l
+74 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+74 20 m
+77 20 l
+77 23 l
+74 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 104 m
+80 104 l
+80 107 l
+77 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 101 m
+80 101 l
+80 104 l
+77 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 98 m
+80 98 l
+80 101 l
+77 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 95 m
+80 95 l
+80 98 l
+77 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 92 m
+80 92 l
+80 95 l
+77 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 89 m
+80 89 l
+80 92 l
+77 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 86 m
+80 86 l
+80 89 l
+77 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 83 m
+80 83 l
+80 86 l
+77 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 80 m
+80 80 l
+80 83 l
+77 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 77 m
+80 77 l
+80 80 l
+77 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 74 m
+80 74 l
+80 77 l
+77 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 71 m
+80 71 l
+80 74 l
+77 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 68 m
+80 68 l
+80 71 l
+77 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 41 m
+80 41 l
+80 44 l
+77 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 38 m
+80 38 l
+80 41 l
+77 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 35 m
+80 35 l
+80 38 l
+77 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 32 m
+80 32 l
+80 35 l
+77 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 29 m
+80 29 l
+80 32 l
+77 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 26 m
+80 26 l
+80 29 l
+77 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 23 m
+80 23 l
+80 26 l
+77 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+77 20 m
+80 20 l
+80 23 l
+77 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 104 m
+83 104 l
+83 107 l
+80 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 101 m
+83 101 l
+83 104 l
+80 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 98 m
+83 98 l
+83 101 l
+80 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 95 m
+83 95 l
+83 98 l
+80 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 92 m
+83 92 l
+83 95 l
+80 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 89 m
+83 89 l
+83 92 l
+80 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 86 m
+83 86 l
+83 89 l
+80 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 83 m
+83 83 l
+83 86 l
+80 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 80 m
+83 80 l
+83 83 l
+80 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 77 m
+83 77 l
+83 80 l
+80 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 74 m
+83 74 l
+83 77 l
+80 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 71 m
+83 71 l
+83 74 l
+80 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 68 m
+83 68 l
+83 71 l
+80 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 65 m
+83 65 l
+83 68 l
+80 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 62 m
+83 62 l
+83 65 l
+80 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 59 m
+83 59 l
+83 62 l
+80 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 56 m
+83 56 l
+83 59 l
+80 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 41 m
+83 41 l
+83 44 l
+80 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 38 m
+83 38 l
+83 41 l
+80 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 35 m
+83 35 l
+83 38 l
+80 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 32 m
+83 32 l
+83 35 l
+80 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 29 m
+83 29 l
+83 32 l
+80 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 26 m
+83 26 l
+83 29 l
+80 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 23 m
+83 23 l
+83 26 l
+80 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+80 20 m
+83 20 l
+83 23 l
+80 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 104 m
+86 104 l
+86 107 l
+83 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 101 m
+86 101 l
+86 104 l
+83 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 98 m
+86 98 l
+86 101 l
+83 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 95 m
+86 95 l
+86 98 l
+83 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 92 m
+86 92 l
+86 95 l
+83 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 89 m
+86 89 l
+86 92 l
+83 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 86 m
+86 86 l
+86 89 l
+83 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 83 m
+86 83 l
+86 86 l
+83 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 80 m
+86 80 l
+86 83 l
+83 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 77 m
+86 77 l
+86 80 l
+83 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 74 m
+86 74 l
+86 77 l
+83 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 71 m
+86 71 l
+86 74 l
+83 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 68 m
+86 68 l
+86 71 l
+83 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 65 m
+86 65 l
+86 68 l
+83 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 62 m
+86 62 l
+86 65 l
+83 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 59 m
+86 59 l
+86 62 l
+83 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 56 m
+86 56 l
+86 59 l
+83 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 50 m
+86 50 l
+86 53 l
+83 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 47 m
+86 47 l
+86 50 l
+83 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 44 m
+86 44 l
+86 47 l
+83 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 38 m
+86 38 l
+86 41 l
+83 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 35 m
+86 35 l
+86 38 l
+83 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 32 m
+86 32 l
+86 35 l
+83 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 29 m
+86 29 l
+86 32 l
+83 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 26 m
+86 26 l
+86 29 l
+83 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 23 m
+86 23 l
+86 26 l
+83 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+83 20 m
+86 20 l
+86 23 l
+83 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 104 m
+89 104 l
+89 107 l
+86 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 101 m
+89 101 l
+89 104 l
+86 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 98 m
+89 98 l
+89 101 l
+86 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 95 m
+89 95 l
+89 98 l
+86 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 92 m
+89 92 l
+89 95 l
+86 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 89 m
+89 89 l
+89 92 l
+86 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 86 m
+89 86 l
+89 89 l
+86 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 83 m
+89 83 l
+89 86 l
+86 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 80 m
+89 80 l
+89 83 l
+86 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 77 m
+89 77 l
+89 80 l
+86 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 74 m
+89 74 l
+89 77 l
+86 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 71 m
+89 71 l
+89 74 l
+86 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 68 m
+89 68 l
+89 71 l
+86 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 65 m
+89 65 l
+89 68 l
+86 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 62 m
+89 62 l
+89 65 l
+86 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 59 m
+89 59 l
+89 62 l
+86 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 56 m
+89 56 l
+89 59 l
+86 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 53 m
+89 53 l
+89 56 l
+86 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 50 m
+89 50 l
+89 53 l
+86 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 47 m
+89 47 l
+89 50 l
+86 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 44 m
+89 44 l
+89 47 l
+86 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 41 m
+89 41 l
+89 44 l
+86 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 32 m
+89 32 l
+89 35 l
+86 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 29 m
+89 29 l
+89 32 l
+86 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 26 m
+89 26 l
+89 29 l
+86 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 23 m
+89 23 l
+89 26 l
+86 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+86 20 m
+89 20 l
+89 23 l
+86 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 104 m
+92 104 l
+92 107 l
+89 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 101 m
+92 101 l
+92 104 l
+89 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 98 m
+92 98 l
+92 101 l
+89 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 95 m
+92 95 l
+92 98 l
+89 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 92 m
+92 92 l
+92 95 l
+89 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 89 m
+92 89 l
+92 92 l
+89 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 86 m
+92 86 l
+92 89 l
+89 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 83 m
+92 83 l
+92 86 l
+89 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 80 m
+92 80 l
+92 83 l
+89 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 77 m
+92 77 l
+92 80 l
+89 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 74 m
+92 74 l
+92 77 l
+89 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 71 m
+92 71 l
+92 74 l
+89 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 68 m
+92 68 l
+92 71 l
+89 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 65 m
+92 65 l
+92 68 l
+89 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 62 m
+92 62 l
+92 65 l
+89 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 59 m
+92 59 l
+92 62 l
+89 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 56 m
+92 56 l
+92 59 l
+89 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 53 m
+92 53 l
+92 56 l
+89 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 50 m
+92 50 l
+92 53 l
+89 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 47 m
+92 47 l
+92 50 l
+89 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 44 m
+92 44 l
+92 47 l
+89 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 41 m
+92 41 l
+92 44 l
+89 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 26 m
+92 26 l
+92 29 l
+89 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 23 m
+92 23 l
+92 26 l
+89 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+89 20 m
+92 20 l
+92 23 l
+89 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 104 m
+95 104 l
+95 107 l
+92 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 101 m
+95 101 l
+95 104 l
+92 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 98 m
+95 98 l
+95 101 l
+92 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 95 m
+95 95 l
+95 98 l
+92 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 86 m
+95 86 l
+95 89 l
+92 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 83 m
+95 83 l
+95 86 l
+92 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 80 m
+95 80 l
+95 83 l
+92 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 77 m
+95 77 l
+95 80 l
+92 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 74 m
+95 74 l
+95 77 l
+92 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 71 m
+95 71 l
+95 74 l
+92 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 68 m
+95 68 l
+95 71 l
+92 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 65 m
+95 65 l
+95 68 l
+92 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 62 m
+95 62 l
+95 65 l
+92 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 59 m
+95 59 l
+95 62 l
+92 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 56 m
+95 56 l
+95 59 l
+92 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 53 m
+95 53 l
+95 56 l
+92 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 50 m
+95 50 l
+95 53 l
+92 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 47 m
+95 47 l
+95 50 l
+92 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 44 m
+95 44 l
+95 47 l
+92 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 41 m
+95 41 l
+95 44 l
+92 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 38 m
+95 38 l
+95 41 l
+92 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 26 m
+95 26 l
+95 29 l
+92 29 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 23 m
+95 23 l
+95 26 l
+92 26 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+92 20 m
+95 20 l
+95 23 l
+92 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 104 m
+98 104 l
+98 107 l
+95 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 101 m
+98 101 l
+98 104 l
+95 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 98 m
+98 98 l
+98 101 l
+95 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 95 m
+98 95 l
+98 98 l
+95 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 86 m
+98 86 l
+98 89 l
+95 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 83 m
+98 83 l
+98 86 l
+95 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 80 m
+98 80 l
+98 83 l
+95 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 77 m
+98 77 l
+98 80 l
+95 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 74 m
+98 74 l
+98 77 l
+95 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 71 m
+98 71 l
+98 74 l
+95 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 68 m
+98 68 l
+98 71 l
+95 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 65 m
+98 65 l
+98 68 l
+95 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 62 m
+98 62 l
+98 65 l
+95 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 59 m
+98 59 l
+98 62 l
+95 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 56 m
+98 56 l
+98 59 l
+95 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 53 m
+98 53 l
+98 56 l
+95 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 50 m
+98 50 l
+98 53 l
+95 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 47 m
+98 47 l
+98 50 l
+95 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 44 m
+98 44 l
+98 47 l
+95 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 41 m
+98 41 l
+98 44 l
+95 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 38 m
+98 38 l
+98 41 l
+95 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+95 20 m
+98 20 l
+98 23 l
+95 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 104 m
+101 104 l
+101 107 l
+98 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 101 m
+101 101 l
+101 104 l
+98 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 98 m
+101 98 l
+101 101 l
+98 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 95 m
+101 95 l
+101 98 l
+98 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 92 m
+101 92 l
+101 95 l
+98 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 86 m
+101 86 l
+101 89 l
+98 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 83 m
+101 83 l
+101 86 l
+98 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 80 m
+101 80 l
+101 83 l
+98 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 77 m
+101 77 l
+101 80 l
+98 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 74 m
+101 74 l
+101 77 l
+98 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 71 m
+101 71 l
+101 74 l
+98 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 68 m
+101 68 l
+101 71 l
+98 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 65 m
+101 65 l
+101 68 l
+98 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 62 m
+101 62 l
+101 65 l
+98 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 59 m
+101 59 l
+101 62 l
+98 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 56 m
+101 56 l
+101 59 l
+98 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 53 m
+101 53 l
+101 56 l
+98 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 50 m
+101 50 l
+101 53 l
+98 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 47 m
+101 47 l
+101 50 l
+98 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 44 m
+101 44 l
+101 47 l
+98 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 41 m
+101 41 l
+101 44 l
+98 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 38 m
+101 38 l
+101 41 l
+98 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 35 m
+101 35 l
+101 38 l
+98 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 32 m
+101 32 l
+101 35 l
+98 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+98 20 m
+101 20 l
+101 23 l
+98 23 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 104 m
+104 104 l
+104 107 l
+101 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 101 m
+104 101 l
+104 104 l
+101 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 98 m
+104 98 l
+104 101 l
+101 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 95 m
+104 95 l
+104 98 l
+101 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 92 m
+104 92 l
+104 95 l
+101 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 89 m
+104 89 l
+104 92 l
+101 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 86 m
+104 86 l
+104 89 l
+101 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 83 m
+104 83 l
+104 86 l
+101 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 80 m
+104 80 l
+104 83 l
+101 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 77 m
+104 77 l
+104 80 l
+101 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 74 m
+104 74 l
+104 77 l
+101 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 71 m
+104 71 l
+104 74 l
+101 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 68 m
+104 68 l
+104 71 l
+101 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 65 m
+104 65 l
+104 68 l
+101 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 62 m
+104 62 l
+104 65 l
+101 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 59 m
+104 59 l
+104 62 l
+101 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 56 m
+104 56 l
+104 59 l
+101 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 53 m
+104 53 l
+104 56 l
+101 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 50 m
+104 50 l
+104 53 l
+101 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 47 m
+104 47 l
+104 50 l
+101 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 44 m
+104 44 l
+104 47 l
+101 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 41 m
+104 41 l
+104 44 l
+101 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 38 m
+104 38 l
+104 41 l
+101 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 35 m
+104 35 l
+104 38 l
+101 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+101 32 m
+104 32 l
+104 35 l
+101 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 104 m
+107 104 l
+107 107 l
+104 107 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 101 m
+107 101 l
+107 104 l
+104 104 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 98 m
+107 98 l
+107 101 l
+104 101 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 95 m
+107 95 l
+107 98 l
+104 98 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 92 m
+107 92 l
+107 95 l
+104 95 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 89 m
+107 89 l
+107 92 l
+104 92 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 86 m
+107 86 l
+107 89 l
+104 89 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 83 m
+107 83 l
+107 86 l
+104 86 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 80 m
+107 80 l
+107 83 l
+104 83 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 77 m
+107 77 l
+107 80 l
+104 80 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 74 m
+107 74 l
+107 77 l
+104 77 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 71 m
+107 71 l
+107 74 l
+104 74 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 68 m
+107 68 l
+107 71 l
+104 71 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 65 m
+107 65 l
+107 68 l
+104 68 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 62 m
+107 62 l
+107 65 l
+104 65 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 59 m
+107 59 l
+107 62 l
+104 62 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 56 m
+107 56 l
+107 59 l
+104 59 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 53 m
+107 53 l
+107 56 l
+104 56 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 50 m
+107 50 l
+107 53 l
+104 53 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 47 m
+107 47 l
+107 50 l
+104 50 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 44 m
+107 44 l
+107 47 l
+104 47 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 41 m
+107 41 l
+107 44 l
+104 44 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 38 m
+107 38 l
+107 41 l
+104 41 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 35 m
+107 35 l
+107 38 l
+104 38 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 32 m
+107 32 l
+107 35 l
+104 35 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 29 m
+107 29 l
+107 32 l
+104 32 l
+h
+</path>
+<path stroke="0.501" fill="white" pen="0.05">
+104 26 m
+107 26 l
+107 29 l
+104 29 l
+h
+</path>
+<path stroke="0.501" pen="0.05">
+20 20 m
+107 20 l
+107 107 l
+20 107 l
+h
+</path>
+<path stroke="CB light blue" fill="CB light blue" pen="0.05" opacity="40%">
+20 74 m
+53 74 l
+53 107 l
+20 107 l
+h
+</path>
+<path stroke="CB light green" fill="CB light green" pen="0.05" opacity="40%">
+53 53 m
+74 53 l
+74 74 l
+53 74 l
+h
+</path>
+<path stroke="CB light orange" fill="CB light orange" pen="0.05" opacity="40%">
+74 44 m
+83 44 l
+83 53 l
+74 53 l
+h
+</path>
+<path stroke="CB light purple" fill="CB light purple" pen="0.05" opacity="40%">
+89 29 m
+98 29 l
+98 38 l
+89 38 l
+h
+</path>
+<path stroke="white" pen="0.1">
+152.989 86.6177 m
+158.136 86.6177 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 85.6177 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+158.136 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 85.6177 m
+159.136 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+174.5 63.5 m
+177.379 63.5 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 62.5 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+177.379 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 62.5 m
+178.379 50.6213 l
+</path>
+<path stroke="white" pen="0.1">
+189.5 39.5 m
+192.379 39.5 l
+</path>
+<path stroke="white" pen="0.1">
+193.379 38.5 m
+193.379 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+189.5 39.5 m
+192.379 39.5 l
+</path>
+<path stroke="black" pen="0.05">
+193.379 38.5 m
+193.379 35.6213 l
+</path>
+<path stroke="white" pen="0.1">
+197.621 35.6213 m
+200.5 35.6213 l
+</path>
+<path stroke="white" pen="0.1">
+201.5 34.6213 m
+201.5 27.5 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 35.6213 m
+200.5 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+201.5 34.6213 m
+201.5 27.5 l
+</path>
+<path stroke="black" pen="0.05">
+201.5 27.5 m
+204.5 24.5 l
+</path>
+<path stroke="black" pen="0.05">
+204.5 24.5 m
+207.5 21.5 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 79.8934 m
+149.107 75.3333 l
+</path>
+<path stroke="white" pen="0.1">
+150.107 74.3333 m
+154.667 74.3333 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 75.3333 l
+</path>
+<path stroke="black" pen="0.05">
+150.107 74.3333 m
+154.667 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+154.667 74.3333 m
+158.136 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 73.3333 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+154.667 74.3333 m
+158.136 74.3333 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 73.3333 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155.767 74.3333 m
+155.567 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 86.6177 m
+153.643 86.6177 l
+</path>
+<path stroke="white" pen="0.1">
+154.643 85.6177 m
+154.643 74.3571 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+153.643 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 85.6177 m
+154.643 74.3571 l
+</path>
+<path stroke="white" pen="0.1">
+154.643 74.3571 m
+154.643 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+155.643 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 74.3571 m
+154.643 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+155.643 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 75.4571 m
+154.643 75.2571 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 57.136 m
+171.864 54.3 l
+</path>
+<path stroke="white" pen="0.1">
+172.864 53.3 m
+175.7 53.3 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+171.864 54.3 l
+</path>
+<path stroke="black" pen="0.05">
+172.864 53.3 m
+175.7 53.3 l
+</path>
+<path stroke="white" pen="0.1">
+175.7 53.3 m
+177.379 53.3 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 52.3 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+175.7 53.3 m
+177.379 53.3 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 52.3 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+176.8 53.3 m
+176.6 53.3 l
+</path>
+<path stroke="white" pen="0.1">
+174.5 63.5 m
+174.7 63.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.7 62.5 m
+175.7 53.3 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+174.7 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.7 62.5 m
+175.7 53.3 l
+</path>
+<path stroke="white" pen="0.1">
+175.7 53.3 m
+175.7 45 l
+</path>
+<path stroke="white" pen="0.1">
+176.7 44 m
+181.621 44 l
+</path>
+<path stroke="white" pen="0.1">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+175.7 53.3 m
+175.7 45 l
+</path>
+<path stroke="black" pen="0.05">
+176.7 44 m
+181.621 44 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+175.7 54.4 m
+175.7 54.2 l
+</path>
+<path stroke="white" pen="0.1">
+197.621 35.6213 m
+203.5 35.6213 l
+</path>
+<path stroke="white" pen="0.1">
+204.5 34.6213 m
+204.5 24.5 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 35.6213 m
+203.5 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+204.5 34.6213 m
+204.5 24.5 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 94.3823 m
+158.136 94.3823 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 93.3823 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+158.136 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 93.3823 m
+159.136 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 79.8934 m
+149.107 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+150.107 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+150.107 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 86.6177 m
+164.5 86.6177 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 85.6177 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+164.5 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 85.6177 m
+165.5 72.5 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 69.864 m
+177.379 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 68.864 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+177.379 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 68.864 m
+178.379 50.6213 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 57.136 m
+171.864 45 l
+</path>
+<path stroke="white" pen="0.1">
+172.864 44 m
+181.621 44 l
+</path>
+<path stroke="white" pen="0.1">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+171.864 45 l
+</path>
+<path stroke="black" pen="0.05">
+172.864 44 m
+181.621 44 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="white" pen="0.1">
+174.5 63.5 m
+181.621 63.5 l
+</path>
+<path stroke="white" pen="0.1">
+182.621 62.5 m
+182.621 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+181.621 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 62.5 m
+182.621 50.6213 l
+</path>
+<path stroke="white" pen="0.1">
+140.847 75.6847 m
+140.847 75.1667 l
+</path>
+<path stroke="white" pen="0.1">
+141.847 74.1667 m
+154.833 74.1667 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+140.847 75.1667 l
+</path>
+<path stroke="black" pen="0.05">
+141.847 74.1667 m
+154.833 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+154.833 74.1667 m
+158.136 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 73.1667 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+154.833 74.1667 m
+158.136 74.1667 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 73.1667 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155.933 74.1667 m
+155.733 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 94.3823 m
+153.786 94.3823 l
+</path>
+<path stroke="white" pen="0.1">
+154.786 93.3823 m
+154.786 74.2143 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+153.786 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 93.3823 m
+154.786 74.2143 l
+</path>
+<path stroke="white" pen="0.1">
+154.786 74.2143 m
+154.786 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+155.786 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 74.2143 m
+154.786 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+155.786 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 75.3143 m
+154.786 75.1143 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 79.8934 m
+149.107 75.3333 l
+</path>
+<path stroke="white" pen="0.1">
+150.107 74.3333 m
+154.667 74.3333 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 75.3333 l
+</path>
+<path stroke="black" pen="0.05">
+150.107 74.3333 m
+154.667 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+154.667 74.3333 m
+164.5 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 73.3333 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+154.667 74.3333 m
+164.5 74.3333 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 73.3333 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+155.767 74.3333 m
+155.567 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 86.6177 m
+153.643 86.6177 l
+</path>
+<path stroke="white" pen="0.1">
+154.643 85.6177 m
+154.643 74.3571 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+153.643 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 85.6177 m
+154.643 74.3571 l
+</path>
+<path stroke="white" pen="0.1">
+154.643 74.3571 m
+154.643 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+155.643 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 74.3571 m
+154.643 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.643 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 75.4571 m
+154.643 75.2571 l
+</path>
+<path stroke="white" pen="0.1">
+163.171 54.8067 m
+163.171 54.1 l
+</path>
+<path stroke="white" pen="0.1">
+164.171 53.1 m
+175.9 53.1 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+163.171 54.1 l
+</path>
+<path stroke="black" pen="0.05">
+164.171 53.1 m
+175.9 53.1 l
+</path>
+<path stroke="white" pen="0.1">
+175.9 53.1 m
+177.379 53.1 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 52.1 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+175.9 53.1 m
+177.379 53.1 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 52.1 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+177 53.1 m
+176.8 53.1 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 69.864 m
+174.9 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+175.9 68.864 m
+175.9 53.1 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+174.9 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+175.9 68.864 m
+175.9 53.1 l
+</path>
+<path stroke="white" pen="0.1">
+175.9 53.1 m
+175.9 45 l
+</path>
+<path stroke="white" pen="0.1">
+176.9 44 m
+181.621 44 l
+</path>
+<path stroke="white" pen="0.1">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+175.9 53.1 m
+175.9 45 l
+</path>
+<path stroke="black" pen="0.05">
+176.9 44 m
+181.621 44 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+175.9 54.2 m
+175.9 54 l
+</path>
+<path stroke="white" pen="0.1">
+174.5 63.5 m
+185.5 63.5 l
+</path>
+<path stroke="white" pen="0.1">
+186.5 62.5 m
+186.5 42.5 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+185.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+186.5 62.5 m
+186.5 42.5 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 101.107 m
+158.136 101.107 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 100.107 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+158.136 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 100.107 m
+159.136 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+140.847 75.6847 m
+140.847 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+141.847 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+140.847 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+141.847 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 94.3823 m
+164.5 94.3823 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 93.3823 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+164.5 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 93.3823 m
+165.5 72.5 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 79.8934 m
+149.107 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+150.107 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+150.107 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 86.6177 m
+170.864 86.6177 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 85.6177 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+170.864 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 85.6177 m
+171.864 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 72.5 m
+165.5 73 l
+</path>
+<path stroke="white" pen="0.1">
+166.5 74 m
+177.379 74 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 73 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+165.5 73 l
+</path>
+<path stroke="black" pen="0.05">
+166.5 74 m
+177.379 74 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 73 m
+178.379 50.6213 l
+</path>
+<path stroke="white" pen="0.1">
+163.171 54.8067 m
+163.171 45 l
+</path>
+<path stroke="white" pen="0.1">
+164.171 44 m
+181.621 44 l
+</path>
+<path stroke="white" pen="0.1">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+163.171 45 l
+</path>
+<path stroke="black" pen="0.05">
+164.171 44 m
+181.621 44 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="white" pen="0.1">
+131.69 77.1349 m
+131.69 75 l
+</path>
+<path stroke="white" pen="0.1">
+132.69 74 m
+155 74 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 75 l
+</path>
+<path stroke="black" pen="0.05">
+132.69 74 m
+155 74 l
+</path>
+<path stroke="white" pen="0.1">
+155 74 m
+158.136 74 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 73 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155 74 m
+158.136 74 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 73 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+156.1 74 m
+155.9 74 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 101.107 m
+153.929 101.107 l
+</path>
+<path stroke="white" pen="0.1">
+154.929 100.107 m
+154.929 74.0714 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+153.929 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 100.107 m
+154.929 74.0714 l
+</path>
+<path stroke="white" pen="0.1">
+154.929 74.0714 m
+154.929 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+155.929 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 74.0714 m
+154.929 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+155.929 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 75.1714 m
+154.929 74.9714 l
+</path>
+<path stroke="white" pen="0.1">
+140.847 75.6847 m
+140.847 75.1667 l
+</path>
+<path stroke="white" pen="0.1">
+141.847 74.1667 m
+154.833 74.1667 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+140.847 75.1667 l
+</path>
+<path stroke="black" pen="0.05">
+141.847 74.1667 m
+154.833 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+154.833 74.1667 m
+164.5 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 73.1667 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+154.833 74.1667 m
+164.5 74.1667 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 73.1667 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+155.933 74.1667 m
+155.733 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 94.3823 m
+153.786 94.3823 l
+</path>
+<path stroke="white" pen="0.1">
+154.786 93.3823 m
+154.786 74.2143 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+153.786 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 93.3823 m
+154.786 74.2143 l
+</path>
+<path stroke="white" pen="0.1">
+154.786 74.2143 m
+154.786 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+155.786 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 74.2143 m
+154.786 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.786 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 75.3143 m
+154.786 75.1143 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 79.8934 m
+149.107 75.3333 l
+</path>
+<path stroke="white" pen="0.1">
+150.107 74.3333 m
+154.667 74.3333 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 75.3333 l
+</path>
+<path stroke="black" pen="0.05">
+150.107 74.3333 m
+154.667 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+154.667 74.3333 m
+170.864 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 73.3333 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+154.667 74.3333 m
+170.864 74.3333 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 73.3333 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155.767 74.3333 m
+155.567 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 86.6177 m
+153.643 86.6177 l
+</path>
+<path stroke="white" pen="0.1">
+154.643 85.6177 m
+154.643 74.3571 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+153.643 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 85.6177 m
+154.643 74.3571 l
+</path>
+<path stroke="white" pen="0.1">
+154.643 74.3571 m
+154.643 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+155.643 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 74.3571 m
+154.643 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+155.643 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+154.643 75.4571 m
+154.643 75.2571 l
+</path>
+<path stroke="white" pen="0.1">
+156.807 61.1706 m
+156.807 53.9 l
+</path>
+<path stroke="white" pen="0.1">
+157.807 52.9 m
+176.1 52.9 l
+</path>
+<path stroke="black" pen="0.05">
+156.807 61.1706 m
+156.807 53.9 l
+</path>
+<path stroke="black" pen="0.05">
+157.807 52.9 m
+176.1 52.9 l
+</path>
+<path stroke="white" pen="0.1">
+176.1 52.9 m
+177.379 52.9 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 51.9 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+176.1 52.9 m
+177.379 52.9 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 51.9 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+177.2 52.9 m
+177 52.9 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 72.5 m
+165.5 73 l
+</path>
+<path stroke="white" pen="0.1">
+166.5 74 m
+175.1 74 l
+</path>
+<path stroke="white" pen="0.1">
+176.1 73 m
+176.1 52.9 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+165.5 73 l
+</path>
+<path stroke="black" pen="0.05">
+166.5 74 m
+175.1 74 l
+</path>
+<path stroke="black" pen="0.05">
+176.1 73 m
+176.1 52.9 l
+</path>
+<path stroke="white" pen="0.1">
+176.1 52.9 m
+176.1 45 l
+</path>
+<path stroke="white" pen="0.1">
+177.1 44 m
+181.621 44 l
+</path>
+<path stroke="white" pen="0.1">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+176.1 52.9 m
+176.1 45 l
+</path>
+<path stroke="black" pen="0.05">
+177.1 44 m
+181.621 44 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 45 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+176.1 54 m
+176.1 53.8 l
+</path>
+<path stroke="white" pen="0.1">
+131.69 77.1349 m
+131.69 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+132.69 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+132.69 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 101.107 m
+164.5 101.107 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 100.107 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+164.5 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 100.107 m
+165.5 72.5 l
+</path>
+<path stroke="white" pen="0.1">
+140.847 75.6847 m
+140.847 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+141.847 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+140.847 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+141.847 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 94.3823 m
+170.864 94.3823 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 93.3823 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+170.864 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 93.3823 m
+171.864 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 79.8934 m
+149.107 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+150.107 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+150.107 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 86.6177 m
+175.3 86.6177 l
+</path>
+<path stroke="white" pen="0.1">
+176.3 85.6177 m
+176.3 64.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+175.3 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+176.3 85.6177 m
+176.3 64.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="white" pen="0.1">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="white" pen="0.1">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="black" pen="0.05">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+155.167 73.8333 m
+158.136 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 72.8333 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155.167 73.8333 m
+158.136 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 72.8333 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+156.267 73.8333 m
+156.067 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+131.69 77.1349 m
+131.69 75 l
+</path>
+<path stroke="white" pen="0.1">
+132.69 74 m
+155 74 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 75 l
+</path>
+<path stroke="black" pen="0.05">
+132.69 74 m
+155 74 l
+</path>
+<path stroke="white" pen="0.1">
+155 74 m
+164.5 74 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 73 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+155 74 m
+164.5 74 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 73 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+156.1 74 m
+155.9 74 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 101.107 m
+153.929 101.107 l
+</path>
+<path stroke="white" pen="0.1">
+154.929 100.107 m
+154.929 74.0714 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+153.929 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 100.107 m
+154.929 74.0714 l
+</path>
+<path stroke="white" pen="0.1">
+154.929 74.0714 m
+154.929 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+155.929 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 74.0714 m
+154.929 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.929 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 75.1714 m
+154.929 74.9714 l
+</path>
+<path stroke="white" pen="0.1">
+140.847 75.6847 m
+140.847 75.1667 l
+</path>
+<path stroke="white" pen="0.1">
+141.847 74.1667 m
+154.833 74.1667 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+140.847 75.1667 l
+</path>
+<path stroke="black" pen="0.05">
+141.847 74.1667 m
+154.833 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+154.833 74.1667 m
+170.864 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 73.1667 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+154.833 74.1667 m
+170.864 74.1667 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 73.1667 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155.933 74.1667 m
+155.733 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 94.3823 m
+153.786 94.3823 l
+</path>
+<path stroke="white" pen="0.1">
+154.786 93.3823 m
+154.786 74.2143 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+153.786 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 93.3823 m
+154.786 74.2143 l
+</path>
+<path stroke="white" pen="0.1">
+154.786 74.2143 m
+154.786 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+155.786 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 74.2143 m
+154.786 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+155.786 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+154.786 75.3143 m
+154.786 75.1143 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 79.8934 m
+149.107 75.3333 l
+</path>
+<path stroke="white" pen="0.1">
+150.107 74.3333 m
+154.667 74.3333 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 75.3333 l
+</path>
+<path stroke="black" pen="0.05">
+150.107 74.3333 m
+154.667 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+154.667 74.3333 m
+175.3 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+176.3 73.3333 m
+176.3 64.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+154.667 74.3333 m
+175.3 74.3333 l
+</path>
+<path stroke="black" pen="0.05">
+176.3 73.3333 m
+176.3 64.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+155.767 74.3333 m
+155.567 74.3333 l
+</path>
+<path stroke="white" pen="0.1">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="white" pen="0.1">
+135.618 107.167 m
+158.136 107.167 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 106.167 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="black" pen="0.05">
+135.618 107.167 m
+158.136 107.167 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 106.167 m
+159.136 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+125.135 83.6901 m
+125.135 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+126.135 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+126.135 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="white" pen="0.1">
+142.382 104.989 m
+164.5 104.989 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 103.989 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+164.5 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 103.989 m
+165.5 72.5 l
+</path>
+<path stroke="white" pen="0.1">
+131.69 77.1349 m
+131.69 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+132.69 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+132.69 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 101.107 m
+170.864 101.107 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 100.107 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+170.864 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 100.107 m
+171.864 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+140.847 75.6847 m
+140.847 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+141.847 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+140.847 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+141.847 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="white" pen="0.1">
+152.989 94.3823 m
+175.3 94.3823 l
+</path>
+<path stroke="white" pen="0.1">
+176.3 93.3823 m
+176.3 64.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+175.3 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+176.3 93.3823 m
+176.3 64.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="white" pen="0.1">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="white" pen="0.1">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="white" pen="0.1">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+155.333 73.6667 m
+158.136 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 72.6667 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155.333 73.6667 m
+158.136 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 72.6667 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+156.433 73.6667 m
+156.233 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="white" pen="0.1">
+135.618 107.167 m
+154.214 107.167 l
+</path>
+<path stroke="white" pen="0.1">
+155.214 106.167 m
+155.214 73.7857 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="black" pen="0.05">
+135.618 107.167 m
+154.214 107.167 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 106.167 m
+155.214 73.7857 l
+</path>
+<path stroke="white" pen="0.1">
+155.214 73.7857 m
+155.214 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+156.214 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 73.7857 m
+155.214 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+156.214 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 74.8857 m
+155.214 74.6857 l
+</path>
+<path stroke="white" pen="0.1">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="white" pen="0.1">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="black" pen="0.05">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+155.167 73.8333 m
+164.5 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 72.8333 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+155.167 73.8333 m
+164.5 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.8333 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+156.267 73.8333 m
+156.067 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+142.382 104.989 m
+154.071 104.989 l
+</path>
+<path stroke="white" pen="0.1">
+155.071 103.989 m
+155.071 73.9286 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+154.071 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+155.071 103.989 m
+155.071 73.9286 l
+</path>
+<path stroke="white" pen="0.1">
+155.071 73.9286 m
+155.071 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+156.071 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.071 73.9286 m
+155.071 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+156.071 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.071 75.0286 m
+155.071 74.8286 l
+</path>
+<path stroke="white" pen="0.1">
+131.69 77.1349 m
+131.69 75 l
+</path>
+<path stroke="white" pen="0.1">
+132.69 74 m
+155 74 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 75 l
+</path>
+<path stroke="black" pen="0.05">
+132.69 74 m
+155 74 l
+</path>
+<path stroke="white" pen="0.1">
+155 74 m
+170.864 74 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 73 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155 74 m
+170.864 74 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 73 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+156.1 74 m
+155.9 74 l
+</path>
+<path stroke="white" pen="0.1">
+149.107 101.107 m
+153.929 101.107 l
+</path>
+<path stroke="white" pen="0.1">
+154.929 100.107 m
+154.929 74.0714 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+153.929 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 100.107 m
+154.929 74.0714 l
+</path>
+<path stroke="white" pen="0.1">
+154.929 74.0714 m
+154.929 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+155.929 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 74.0714 m
+154.929 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+155.929 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+154.929 75.1714 m
+154.929 74.9714 l
+</path>
+<path stroke="white" pen="0.1">
+140.847 75.6847 m
+140.847 75.1667 l
+</path>
+<path stroke="white" pen="0.1">
+141.847 74.1667 m
+154.833 74.1667 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+140.847 75.1667 l
+</path>
+<path stroke="black" pen="0.05">
+141.847 74.1667 m
+154.833 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+154.833 74.1667 m
+175.3 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+176.3 73.1667 m
+176.3 64.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+154.833 74.1667 m
+175.3 74.1667 l
+</path>
+<path stroke="black" pen="0.05">
+176.3 73.1667 m
+176.3 64.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+155.933 74.1667 m
+155.733 74.1667 l
+</path>
+<path stroke="white" pen="0.1">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="white" pen="0.1">
+128.893 106.833 m
+158.136 106.833 l
+</path>
+<path stroke="white" pen="0.1">
+159.136 105.833 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="black" pen="0.05">
+128.893 106.833 m
+158.136 106.833 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 105.833 m
+159.136 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="white" pen="0.1">
+122 91.8465 m
+122 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+123 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+122 91.8465 m
+122 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+123 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="white" pen="0.1">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="white" pen="0.1">
+135.618 107.167 m
+164.5 107.167 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 106.167 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="black" pen="0.05">
+135.618 107.167 m
+164.5 107.167 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 106.167 m
+165.5 72.5 l
+</path>
+<path stroke="white" pen="0.1">
+125.135 83.6901 m
+125.135 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+126.135 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+126.135 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="white" pen="0.1">
+142.382 104.989 m
+170.864 104.989 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 103.989 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+170.864 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 103.989 m
+171.864 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="white" pen="0.1">
+128.893 106.833 m
+154.357 106.833 l
+</path>
+<path stroke="white" pen="0.1">
+155.357 105.833 m
+155.357 73.6429 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="black" pen="0.05">
+128.893 106.833 m
+154.357 106.833 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 105.833 m
+155.357 73.6429 l
+</path>
+<path stroke="white" pen="0.1">
+155.357 73.6429 m
+155.357 62.1706 l
+</path>
+<path stroke="white" pen="0.1">
+156.357 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 73.6429 m
+155.357 62.1706 l
+</path>
+<path stroke="black" pen="0.05">
+156.357 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 74.7429 m
+155.357 74.5429 l
+</path>
+<path stroke="white" pen="0.1">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="white" pen="0.1">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="white" pen="0.1">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+155.333 73.6667 m
+164.5 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 72.6667 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+155.333 73.6667 m
+164.5 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.6667 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+156.433 73.6667 m
+156.233 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="white" pen="0.1">
+135.618 107.167 m
+154.214 107.167 l
+</path>
+<path stroke="white" pen="0.1">
+155.214 106.167 m
+155.214 73.7857 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="black" pen="0.05">
+135.618 107.167 m
+154.214 107.167 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 106.167 m
+155.214 73.7857 l
+</path>
+<path stroke="white" pen="0.1">
+155.214 73.7857 m
+155.214 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+156.214 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 73.7857 m
+155.214 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+156.214 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 74.8857 m
+155.214 74.6857 l
+</path>
+<path stroke="white" pen="0.1">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="white" pen="0.1">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="black" pen="0.05">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+155.167 73.8333 m
+170.864 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 72.8333 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155.167 73.8333 m
+170.864 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 72.8333 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+156.267 73.8333 m
+156.067 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="white" pen="0.1">
+128.893 106.833 m
+164.5 106.833 l
+</path>
+<path stroke="white" pen="0.1">
+165.5 105.833 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="black" pen="0.05">
+128.893 106.833 m
+164.5 106.833 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 105.833 m
+165.5 72.5 l
+</path>
+<path stroke="white" pen="0.1">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="white" pen="0.1">
+122 91.8465 m
+122 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+123 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+122 91.8465 m
+122 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+123 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="white" pen="0.1">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="white" pen="0.1">
+135.618 107.167 m
+170.864 107.167 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 106.167 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="black" pen="0.05">
+135.618 107.167 m
+170.864 107.167 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 106.167 m
+171.864 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+125.135 83.6901 m
+125.135 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+126.135 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+126.135 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="white" pen="0.1">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="white" pen="0.1">
+128.893 106.833 m
+154.357 106.833 l
+</path>
+<path stroke="white" pen="0.1">
+155.357 105.833 m
+155.357 73.6429 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="black" pen="0.05">
+128.893 106.833 m
+154.357 106.833 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 105.833 m
+155.357 73.6429 l
+</path>
+<path stroke="white" pen="0.1">
+155.357 73.6429 m
+155.357 55.8067 l
+</path>
+<path stroke="white" pen="0.1">
+156.357 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 73.6429 m
+155.357 55.8067 l
+</path>
+<path stroke="black" pen="0.05">
+156.357 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 74.7429 m
+155.357 74.5429 l
+</path>
+<path stroke="white" pen="0.1">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="white" pen="0.1">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="white" pen="0.1">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+155.333 73.6667 m
+170.864 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 72.6667 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+155.333 73.6667 m
+170.864 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 72.6667 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+156.433 73.6667 m
+156.233 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="white" pen="0.1">
+135.618 107.167 m
+154.214 107.167 l
+</path>
+<path stroke="white" pen="0.1">
+155.214 106.167 m
+155.214 73.7857 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="black" pen="0.05">
+135.618 107.167 m
+154.214 107.167 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 106.167 m
+155.214 73.7857 l
+</path>
+<path stroke="white" pen="0.1">
+155.214 73.7857 m
+155.214 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+156.214 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 73.7857 m
+155.214 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+156.214 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+155.214 74.8857 m
+155.214 74.6857 l
+</path>
+<path stroke="white" pen="0.1">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="white" pen="0.1">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="black" pen="0.05">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+155.167 73.8333 m
+175.3 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+176.3 72.8333 m
+176.3 64.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+155.167 73.8333 m
+175.3 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+176.3 72.8333 m
+176.3 64.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+156.267 73.8333 m
+156.067 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="white" pen="0.1">
+128.893 106.833 m
+170.864 106.833 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 105.833 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="black" pen="0.05">
+128.893 106.833 m
+170.864 106.833 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 105.833 m
+171.864 69.864 l
+</path>
+<path stroke="white" pen="0.1">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="white" pen="0.1">
+122 91.8465 m
+122 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+123 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+122 91.8465 m
+122 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+123 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="white" pen="0.1">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="white" pen="0.1">
+135.618 107.167 m
+175.3 107.167 l
+</path>
+<path stroke="white" pen="0.1">
+176.3 106.167 m
+176.3 64.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="black" pen="0.05">
+135.618 107.167 m
+175.3 107.167 l
+</path>
+<path stroke="black" pen="0.05">
+176.3 106.167 m
+176.3 64.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="white" pen="0.1">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="white" pen="0.1">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 74.8333 l
+</path>
+<path stroke="black" pen="0.05">
+126.135 73.8333 m
+155.167 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+155.167 73.8333 m
+177.379 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 72.8333 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+155.167 73.8333 m
+177.379 73.8333 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 72.8333 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+156.267 73.8333 m
+156.067 73.8333 l
+</path>
+<path stroke="white" pen="0.1">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="white" pen="0.1">
+128.893 106.833 m
+154.357 106.833 l
+</path>
+<path stroke="white" pen="0.1">
+155.357 105.833 m
+155.357 73.6429 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="black" pen="0.05">
+128.893 106.833 m
+154.357 106.833 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 105.833 m
+155.357 73.6429 l
+</path>
+<path stroke="white" pen="0.1">
+155.357 73.6429 m
+155.357 53.7 l
+</path>
+<path stroke="white" pen="0.1">
+156.357 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="white" pen="0.1">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 73.6429 m
+155.357 53.7 l
+</path>
+<path stroke="black" pen="0.05">
+156.357 52.7 m
+170.864 52.7 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 53.7 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+155.357 74.7429 m
+155.357 74.5429 l
+</path>
+<path stroke="white" pen="0.1">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="white" pen="0.1">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="white" pen="0.1">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+155.333 73.6667 m
+175.3 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+176.3 72.6667 m
+176.3 64.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+155.333 73.6667 m
+175.3 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+176.3 72.6667 m
+176.3 64.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+156.433 73.6667 m
+156.233 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="white" pen="0.1">
+135.618 107.167 m
+177.379 107.167 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 106.167 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 106.167 l
+</path>
+<path stroke="black" pen="0.05">
+135.618 107.167 m
+177.379 107.167 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 106.167 m
+178.379 50.6213 l
+</path>
+<path stroke="white" pen="0.1">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="white" pen="0.1">
+128.893 106.833 m
+175.3 106.833 l
+</path>
+<path stroke="white" pen="0.1">
+176.3 105.833 m
+176.3 64.5 l
+</path>
+<path stroke="white" pen="0.1">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="black" pen="0.05">
+128.893 106.833 m
+175.3 106.833 l
+</path>
+<path stroke="black" pen="0.05">
+176.3 105.833 m
+176.3 64.5 l
+</path>
+<path stroke="black" pen="0.05">
+175.3 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="white" pen="0.1">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="white" pen="0.1">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="white" pen="0.1">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+122 91.8465 m
+122 74.6667 l
+</path>
+<path stroke="black" pen="0.05">
+123 73.6667 m
+155.333 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+155.333 73.6667 m
+177.379 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 72.6667 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+155.333 73.6667 m
+177.379 73.6667 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 72.6667 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+156.433 73.6667 m
+156.233 73.6667 l
+</path>
+<path stroke="white" pen="0.1">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="white" pen="0.1">
+128.893 106.833 m
+177.379 106.833 l
+</path>
+<path stroke="white" pen="0.1">
+178.379 105.833 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 105.833 l
+</path>
+<path stroke="black" pen="0.05">
+128.893 106.833 m
+177.379 106.833 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 105.833 m
+178.379 50.6213 l
+</path>
+<path stroke="white" pen="0.1">
+131.69 77.1349 m
+131.69 30 l
+</path>
+<path stroke="white" pen="0.1">
+132.69 29 m
+196.621 29 l
+</path>
+<path stroke="white" pen="0.1">
+197.621 30 m
+197.621 31.3787 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 30 l
+</path>
+<path stroke="black" pen="0.05">
+132.69 29 m
+196.621 29 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 30 m
+197.621 31.3787 l
+</path>
+<path stroke="white" pen="0.1">
+142.382 104.989 m
+154.071 104.989 l
+</path>
+<path stroke="white" pen="0.1">
+155.071 103.989 m
+155.071 73.9286 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+154.071 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+155.071 103.989 m
+155.071 73.9286 l
+</path>
+<path stroke="white" pen="0.1">
+155.071 73.9286 m
+155.071 30 l
+</path>
+<path stroke="white" pen="0.1">
+156.071 29 m
+196.621 29 l
+</path>
+<path stroke="white" pen="0.1">
+197.621 30 m
+197.621 31.3787 l
+</path>
+<path stroke="black" pen="0.05">
+155.071 73.9286 m
+155.071 30 l
+</path>
+<path stroke="black" pen="0.05">
+156.071 29 m
+196.621 29 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 30 m
+197.621 31.3787 l
+</path>
+<path stroke="black" pen="0.05">
+155.071 75.0286 m
+155.071 74.8286 l
+</path>
+<path stroke="white" pen="0.1">
+131.69 77.1349 m
+131.69 75 l
+</path>
+<path stroke="white" pen="0.1">
+132.69 74 m
+155 74 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 75 l
+</path>
+<path stroke="black" pen="0.05">
+132.69 74 m
+155 74 l
+</path>
+<path stroke="white" pen="0.1">
+155 74 m
+196.621 74 l
+</path>
+<path stroke="white" pen="0.1">
+197.621 73 m
+197.621 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+155 74 m
+196.621 74 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 73 m
+197.621 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+156.1 74 m
+155.9 74 l
+</path>
+<path stroke="white" pen="0.1">
+142.382 104.989 m
+196.621 104.989 l
+</path>
+<path stroke="white" pen="0.1">
+197.621 103.989 m
+197.621 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+196.621 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 103.989 m
+197.621 35.6213 l
+</path>
+<path stroke="white" pen="0.1">
+131.69 77.1349 m
+131.69 28.5 l
+</path>
+<path stroke="white" pen="0.1">
+132.69 27.5 m
+201.5 27.5 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 28.5 l
+</path>
+<path stroke="black" pen="0.05">
+132.69 27.5 m
+201.5 27.5 l
+</path>
+<path stroke="black" pen="0.05">
+158.136 86.6177 m
+1 0 0 -1 158.136 85.6177 159.136 85.6177 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 63.5 m
+1 0 0 -1 177.379 62.5 178.379 62.5 a
+</path>
+<path stroke="black" pen="0.05">
+192.379 39.5 m
+1 0 0 -1 192.379 38.5 193.379 38.5 a
+</path>
+<path stroke="black" pen="0.05">
+200.5 35.6213 m
+1 0 0 -1 200.5 34.6213 201.5 34.6213 a
+</path>
+<path stroke="black" pen="0.05">
+149.107 75.3333 m
+1 0 0 1 150.107 75.3333 150.107 74.3333 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 74.3333 m
+1 0 0 -1 158.136 73.3333 159.136 73.3333 a
+</path>
+<path stroke="black" pen="0.05">
+153.643 86.6177 m
+1 0 0 -1 153.643 85.6177 154.643 85.6177 a
+</path>
+<path stroke="black" pen="0.05">
+154.643 62.1706 m
+1 0 0 1 155.643 62.1706 155.643 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+171.864 54.3 m
+1 0 0 1 172.864 54.3 172.864 53.3 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 53.3 m
+1 0 0 -1 177.379 52.3 178.379 52.3 a
+</path>
+<path stroke="black" pen="0.05">
+174.7 63.5 m
+1 0 0 -1 174.7 62.5 175.7 62.5 a
+</path>
+<path stroke="black" pen="0.05">
+175.7 45 m
+1 0 0 1 176.7 45 176.7 44 a
+</path>
+<path stroke="black" pen="0.05">
+181.621 44 m
+1 0 0 1 181.621 45 182.621 45 a
+</path>
+<path stroke="black" pen="0.05">
+203.5 35.6213 m
+1 0 0 -1 203.5 34.6213 204.5 34.6213 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 94.3823 m
+1 0 0 -1 158.136 93.3823 159.136 93.3823 a
+</path>
+<path stroke="black" pen="0.05">
+149.107 62.1706 m
+1 0 0 1 150.107 62.1706 150.107 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 86.6177 m
+1 0 0 -1 164.5 85.6177 165.5 85.6177 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 69.864 m
+1 0 0 -1 177.379 68.864 178.379 68.864 a
+</path>
+<path stroke="black" pen="0.05">
+171.864 45 m
+1 0 0 1 172.864 45 172.864 44 a
+</path>
+<path stroke="black" pen="0.05">
+181.621 63.5 m
+1 0 0 -1 181.621 62.5 182.621 62.5 a
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.1667 m
+1 0 0 1 141.847 75.1667 141.847 74.1667 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 74.1667 m
+1 0 0 -1 158.136 73.1667 159.136 73.1667 a
+</path>
+<path stroke="black" pen="0.05">
+153.786 94.3823 m
+1 0 0 -1 153.786 93.3823 154.786 93.3823 a
+</path>
+<path stroke="black" pen="0.05">
+154.786 62.1706 m
+1 0 0 1 155.786 62.1706 155.786 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 74.3333 m
+1 0 0 -1 164.5 73.3333 165.5 73.3333 a
+</path>
+<path stroke="black" pen="0.05">
+154.643 55.8067 m
+1 0 0 1 155.643 55.8067 155.643 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.1 m
+1 0 0 1 164.171 54.1 164.171 53.1 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 53.1 m
+1 0 0 -1 177.379 52.1 178.379 52.1 a
+</path>
+<path stroke="black" pen="0.05">
+174.9 69.864 m
+1 0 0 -1 174.9 68.864 175.9 68.864 a
+</path>
+<path stroke="black" pen="0.05">
+175.9 45 m
+1 0 0 1 176.9 45 176.9 44 a
+</path>
+<path stroke="black" pen="0.05">
+185.5 63.5 m
+1 0 0 -1 185.5 62.5 186.5 62.5 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 101.107 m
+1 0 0 -1 158.136 100.107 159.136 100.107 a
+</path>
+<path stroke="black" pen="0.05">
+140.847 62.1706 m
+1 0 0 1 141.847 62.1706 141.847 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 94.3823 m
+1 0 0 -1 164.5 93.3823 165.5 93.3823 a
+</path>
+<path stroke="black" pen="0.05">
+149.107 55.8067 m
+1 0 0 1 150.107 55.8067 150.107 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 86.6177 m
+1 0 0 -1 170.864 85.6177 171.864 85.6177 a
+</path>
+<path stroke="black" pen="0.05">
+165.5 73 m
+1 0 0 -1 166.5 73 166.5 74 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 74 m
+1 0 0 -1 177.379 73 178.379 73 a
+</path>
+<path stroke="black" pen="0.05">
+163.171 45 m
+1 0 0 1 164.171 45 164.171 44 a
+</path>
+<path stroke="black" pen="0.05">
+131.69 75 m
+1 0 0 1 132.69 75 132.69 74 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 74 m
+1 0 0 -1 158.136 73 159.136 73 a
+</path>
+<path stroke="black" pen="0.05">
+153.929 101.107 m
+1 0 0 -1 153.929 100.107 154.929 100.107 a
+</path>
+<path stroke="black" pen="0.05">
+154.929 62.1706 m
+1 0 0 1 155.929 62.1706 155.929 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 74.1667 m
+1 0 0 -1 164.5 73.1667 165.5 73.1667 a
+</path>
+<path stroke="black" pen="0.05">
+154.786 55.8067 m
+1 0 0 1 155.786 55.8067 155.786 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 74.3333 m
+1 0 0 -1 170.864 73.3333 171.864 73.3333 a
+</path>
+<path stroke="black" pen="0.05">
+154.643 53.7 m
+1 0 0 1 155.643 53.7 155.643 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 52.7 m
+1 0 0 1 170.864 53.7 171.864 53.7 a
+</path>
+<path stroke="black" pen="0.05">
+156.807 53.9 m
+1 0 0 1 157.807 53.9 157.807 52.9 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 52.9 m
+1 0 0 -1 177.379 51.9 178.379 51.9 a
+</path>
+<path stroke="black" pen="0.05">
+175.1 74 m
+1 0 0 -1 175.1 73 176.1 73 a
+</path>
+<path stroke="black" pen="0.05">
+176.1 45 m
+1 0 0 1 177.1 45 177.1 44 a
+</path>
+<path stroke="black" pen="0.05">
+131.69 62.1706 m
+1 0 0 1 132.69 62.1706 132.69 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 101.107 m
+1 0 0 -1 164.5 100.107 165.5 100.107 a
+</path>
+<path stroke="black" pen="0.05">
+140.847 55.8067 m
+1 0 0 1 141.847 55.8067 141.847 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 94.3823 m
+1 0 0 -1 170.864 93.3823 171.864 93.3823 a
+</path>
+<path stroke="black" pen="0.05">
+149.107 53.7 m
+1 0 0 1 150.107 53.7 150.107 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+175.3 86.6177 m
+1 0 0 -1 175.3 85.6177 176.3 85.6177 a
+</path>
+<path stroke="black" pen="0.05">
+176.3 64.5 m
+1 0 0 -1 175.3 64.5 175.3 63.5 a
+</path>
+<path stroke="black" pen="0.05">
+125.135 74.8333 m
+1 0 0 1 126.135 74.8333 126.135 73.8333 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 73.8333 m
+1 0 0 -1 158.136 72.8333 159.136 72.8333 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 74 m
+1 0 0 -1 164.5 73 165.5 73 a
+</path>
+<path stroke="black" pen="0.05">
+154.929 55.8067 m
+1 0 0 1 155.929 55.8067 155.929 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 74.1667 m
+1 0 0 -1 170.864 73.1667 171.864 73.1667 a
+</path>
+<path stroke="black" pen="0.05">
+154.786 53.7 m
+1 0 0 1 155.786 53.7 155.786 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+175.3 74.3333 m
+1 0 0 -1 175.3 73.3333 176.3 73.3333 a
+</path>
+<path stroke="black" pen="0.05">
+134.618 106.167 m
+1 0 0 -1 135.618 106.167 135.618 107.167 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 107.167 m
+1 0 0 -1 158.136 106.167 159.136 106.167 a
+</path>
+<path stroke="black" pen="0.05">
+125.135 62.1706 m
+1 0 0 1 126.135 62.1706 126.135 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 104.989 m
+1 0 0 -1 164.5 103.989 165.5 103.989 a
+</path>
+<path stroke="black" pen="0.05">
+131.69 55.8067 m
+1 0 0 1 132.69 55.8067 132.69 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 101.107 m
+1 0 0 -1 170.864 100.107 171.864 100.107 a
+</path>
+<path stroke="black" pen="0.05">
+140.847 53.7 m
+1 0 0 1 141.847 53.7 141.847 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+175.3 94.3823 m
+1 0 0 -1 175.3 93.3823 176.3 93.3823 a
+</path>
+<path stroke="black" pen="0.05">
+123 92.8465 m
+1 0 0 1 123 91.8465 122 91.8465 a
+</path>
+<path stroke="black" pen="0.05">
+122 74.6667 m
+1 0 0 1 123 74.6667 123 73.6667 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 73.6667 m
+1 0 0 -1 158.136 72.6667 159.136 72.6667 a
+</path>
+<path stroke="black" pen="0.05">
+154.214 107.167 m
+1 0 0 -1 154.214 106.167 155.214 106.167 a
+</path>
+<path stroke="black" pen="0.05">
+155.214 62.1706 m
+1 0 0 1 156.214 62.1706 156.214 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 73.8333 m
+1 0 0 -1 164.5 72.8333 165.5 72.8333 a
+</path>
+<path stroke="black" pen="0.05">
+154.071 104.989 m
+1 0 0 -1 154.071 103.989 155.071 103.989 a
+</path>
+<path stroke="black" pen="0.05">
+155.071 55.8067 m
+1 0 0 1 156.071 55.8067 156.071 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 74 m
+1 0 0 -1 170.864 73 171.864 73 a
+</path>
+<path stroke="black" pen="0.05">
+154.929 53.7 m
+1 0 0 1 155.929 53.7 155.929 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+175.3 74.1667 m
+1 0 0 -1 175.3 73.1667 176.3 73.1667 a
+</path>
+<path stroke="black" pen="0.05">
+127.893 105.833 m
+1 0 0 -1 128.893 105.833 128.893 106.833 a
+</path>
+<path stroke="black" pen="0.05">
+158.136 106.833 m
+1 0 0 -1 158.136 105.833 159.136 105.833 a
+</path>
+<path stroke="black" pen="0.05">
+122 62.1706 m
+1 0 0 1 123 62.1706 123 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 107.167 m
+1 0 0 -1 164.5 106.167 165.5 106.167 a
+</path>
+<path stroke="black" pen="0.05">
+125.135 55.8067 m
+1 0 0 1 126.135 55.8067 126.135 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 104.989 m
+1 0 0 -1 170.864 103.989 171.864 103.989 a
+</path>
+<path stroke="black" pen="0.05">
+154.357 106.833 m
+1 0 0 -1 154.357 105.833 155.357 105.833 a
+</path>
+<path stroke="black" pen="0.05">
+155.357 62.1706 m
+1 0 0 1 156.357 62.1706 156.357 61.1706 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 73.6667 m
+1 0 0 -1 164.5 72.6667 165.5 72.6667 a
+</path>
+<path stroke="black" pen="0.05">
+155.214 55.8067 m
+1 0 0 1 156.214 55.8067 156.214 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 73.8333 m
+1 0 0 -1 170.864 72.8333 171.864 72.8333 a
+</path>
+<path stroke="black" pen="0.05">
+164.5 106.833 m
+1 0 0 -1 164.5 105.833 165.5 105.833 a
+</path>
+<path stroke="black" pen="0.05">
+122 55.8067 m
+1 0 0 1 123 55.8067 123 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 107.167 m
+1 0 0 -1 170.864 106.167 171.864 106.167 a
+</path>
+<path stroke="black" pen="0.05">
+125.135 53.7 m
+1 0 0 1 126.135 53.7 126.135 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+155.357 55.8067 m
+1 0 0 1 156.357 55.8067 156.357 54.8067 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 73.6667 m
+1 0 0 -1 170.864 72.6667 171.864 72.6667 a
+</path>
+<path stroke="black" pen="0.05">
+155.214 53.7 m
+1 0 0 1 156.214 53.7 156.214 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+175.3 73.8333 m
+1 0 0 -1 175.3 72.8333 176.3 72.8333 a
+</path>
+<path stroke="black" pen="0.05">
+170.864 106.833 m
+1 0 0 -1 170.864 105.833 171.864 105.833 a
+</path>
+<path stroke="black" pen="0.05">
+122 53.7 m
+1 0 0 1 123 53.7 123 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+175.3 107.167 m
+1 0 0 -1 175.3 106.167 176.3 106.167 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 73.8333 m
+1 0 0 -1 177.379 72.8333 178.379 72.8333 a
+</path>
+<path stroke="black" pen="0.05">
+155.357 53.7 m
+1 0 0 1 156.357 53.7 156.357 52.7 a
+</path>
+<path stroke="black" pen="0.05">
+175.3 73.6667 m
+1 0 0 -1 175.3 72.6667 176.3 72.6667 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 107.167 m
+1 0 0 -1 177.379 106.167 178.379 106.167 a
+</path>
+<path stroke="black" pen="0.05">
+175.3 106.833 m
+1 0 0 -1 175.3 105.833 176.3 105.833 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 73.6667 m
+1 0 0 -1 177.379 72.6667 178.379 72.6667 a
+</path>
+<path stroke="black" pen="0.05">
+177.379 106.833 m
+1 0 0 -1 177.379 105.833 178.379 105.833 a
+</path>
+<path stroke="black" pen="0.05">
+131.69 30 m
+1 0 0 1 132.69 30 132.69 29 a
+</path>
+<path stroke="black" pen="0.05">
+196.621 29 m
+1 0 0 1 196.621 30 197.621 30 a
+</path>
+<path stroke="black" pen="0.05">
+155.071 30 m
+1 0 0 1 156.071 30 156.071 29 a
+</path>
+<path stroke="black" pen="0.05">
+196.621 74 m
+1 0 0 -1 196.621 73 197.621 73 a
+</path>
+<path stroke="black" pen="0.05">
+196.621 104.989 m
+1 0 0 -1 196.621 103.989 197.621 103.989 a
+</path>
+<path stroke="black" pen="0.05">
+131.69 28.5 m
+1 0 0 1 132.69 28.5 132.69 27.5 a
+</path>
+<path stroke="CB light blue" fill="CB light blue" pen="0.05" opacity="40%">
+15 0 0 15 138.5 90.5 e
+</path>
+<path stroke="CB light green" fill="CB light green" pen="0.05" opacity="40%">
+9 0 0 9 165.5 63.5 e
+</path>
+<path stroke="CB light orange" fill="CB light orange" pen="0.05" opacity="40%">
+3 0 0 3 180.5 48.5 e
+</path>
+<path stroke="CB light purple" fill="CB light purple" pen="0.05" opacity="40%">
+3 0 0 3 195.5 33.5 e
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+127.893 101.107 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+123.685 92.8465 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+134.618 104.989 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+125.135 83.6901 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+142.382 104.989 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+131.69 77.1349 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 101.107 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+140.847 75.6847 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 94.3823 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+149.107 79.8934 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+127.893 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+123.685 92.8465 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+134.618 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+125.135 83.6901 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+142.382 104.989 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+131.69 77.1349 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+149.107 101.107 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+140.847 75.6847 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+152.989 94.3823 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+149.107 79.8934 l
+</path>
+<path stroke="black" pen="0.05">
+152.989 86.6177 m
+152.989 86.6177 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 69.864 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 69.864 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 69.864 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 69.864 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 69.864 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 69.864 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+159.136 69.864 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+156.807 61.1706 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+156.807 61.1706 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+156.807 61.1706 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+156.807 61.1706 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+156.807 61.1706 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+156.807 61.1706 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+156.807 61.1706 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+165.5 72.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+163.171 54.8067 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 69.864 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+171.864 57.136 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+159.136 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+156.807 61.1706 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+165.5 72.5 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+163.171 54.8067 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+171.864 69.864 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+171.864 57.136 l
+</path>
+<path stroke="black" pen="0.05">
+174.5 63.5 m
+174.5 63.5 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 50.6213 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 50.6213 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+178.379 50.6213 m
+182.621 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 46.3787 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 46.3787 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 46.3787 m
+182.621 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 50.6213 m
+178.379 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 50.6213 m
+182.621 46.3787 l
+</path>
+<path stroke="black" pen="0.05">
+182.621 50.6213 m
+182.621 50.6213 l
+</path>
+<path stroke="black" pen="0.05">
+193.379 35.6213 m
+193.379 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+193.379 35.6213 m
+197.621 31.3787 l
+</path>
+<path stroke="black" pen="0.05">
+193.379 35.6213 m
+197.621 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 31.3787 m
+193.379 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 31.3787 m
+197.621 31.3787 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 31.3787 m
+197.621 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 35.6213 m
+193.379 35.6213 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 35.6213 m
+197.621 31.3787 l
+</path>
+<path stroke="black" pen="0.05">
+197.621 35.6213 m
+197.621 35.6213 l
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 127.893 101.107 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 123.685 92.8465 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 134.618 104.989 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 125.135 83.6901 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 142.382 104.989 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 131.69 77.1349 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 149.107 101.107 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 140.847 75.6847 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 152.989 94.3823 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 149.107 79.8934 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 152.989 86.6177 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 159.136 69.864 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 156.807 61.1706 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 165.5 72.5 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 163.171 54.8067 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 171.864 69.864 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 171.864 57.136 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 174.5 63.5 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 178.379 50.6213 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 182.621 46.3787 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 182.621 50.6213 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 186.5 42.5 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 189.5 39.5 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 193.379 35.6213 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 197.621 31.3787 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 197.621 35.6213 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 201.5 27.5 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 204.5 24.5 e
+</path>
+<path stroke="black" fill="white" pen="0.05">
+1 0 0 1 207.5 21.5 e
+</path>
+</page>
+</ipe>

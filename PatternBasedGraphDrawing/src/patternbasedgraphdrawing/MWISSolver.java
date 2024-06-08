@@ -34,7 +34,7 @@ public class MWISSolver {
     ArrayList<ArrayList<Integer>> adjacencyList;
     
     double bestScore = 0;
-    ArrayList<PatternRectangle> bestSet;
+    ArrayList<PatternRectangle> bestSet = new ArrayList<>();
     
     // For VND-ILS (see https://doi.org/10.1007/s11590-017-1128-7 for variable meaning)
     int randSeed;
@@ -58,7 +58,7 @@ public class MWISSolver {
     
     public ArrayList<PatternRectangle> solve(){
         this.candidates = new PatternRectangle[allPatterns.size()];
-        allPatterns.toArray(candidates);;
+        allPatterns.toArray(candidates);
         fillAdjacencyList();
         boolean[] independent = new boolean[candidates.length];
         Arrays.fill(independent, true);
@@ -95,11 +95,11 @@ public class MWISSolver {
     
     public void fillAdjacencyList(){
         adjacencyList = new ArrayList<>();
-        for (int i = 0; i < candidates.length; i++) {
+        for (int i = 0; i < allPatterns.size(); i++) {
             ArrayList<Integer> adjacencies = new ArrayList<>();
-            for (int j = 0; j < candidates.length; j++) {
-                candidates[i].overlaps(candidates[j]);
-                if(i!=j && candidates[i].overlaps(candidates[j])){
+            for (int j = 0; j < allPatterns.size(); j++) {
+//                candidates[i].overlaps(candidates[j]);
+                if(i!=j && allPatterns.get(i).overlaps(allPatterns.get(j))){
                     adjacencies.add(j);
                 }
             }
@@ -263,7 +263,7 @@ public class MWISSolver {
             ArrayList<Integer> notIn = notInSolution(currentSolution);
             
             // Shuffle all indices to check them in random order
-            List<Integer> toImprove = IntStream.range(0, allPatterns.size()).boxed().toList();
+            ArrayList<Integer> toImprove = new ArrayList<>(IntStream.range(0, allPatterns.size()).boxed().toList());
             Collections.shuffle(toImprove, random);
             
             for (Integer i : notIn) {
@@ -328,15 +328,24 @@ public class MWISSolver {
         }
         
         // Remove overlapping
+        HashSet<Integer> toRemove = new HashSet<>();
         for (Integer i : currentSolution) {
             for (Integer checkOverlapI : toAdd) {
                 PatternRectangle checkOverlap = allPatterns.get(checkOverlapI);
                 if(checkOverlap.overlaps(allPatterns.get(i))){
-                    remove(currentSolution,i);
+                    toRemove.add(i);
                     break;
                 }    
             }
         }
+        HashSet<Integer> newSolution = new HashSet<>();
+        for (Integer i : currentSolution) {
+            if(!toRemove.contains(i)){
+                newSolution.add(i);
+            }
+        }
+        currentSolution = newSolution;
+        
         // Add perturbation
         insert(currentSolution, toAdd);
         // Add free vertices

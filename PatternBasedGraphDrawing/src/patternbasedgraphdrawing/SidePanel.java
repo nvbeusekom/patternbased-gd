@@ -66,6 +66,15 @@ public class SidePanel extends TabbedSidePanel {
             data.highlightPatterns = v;
             data.draw.repaint();
         });
+        tab.addCheckbox("Vertex Labels", data.vertexLabels, (e, v) -> {
+            data.vertexLabels = v;
+            data.draw.repaint();
+        });
+        tab.addCheckbox("No Patterns", data.patternless, (e, v) -> {
+            data.patternless = v;
+            data.getPatterns();
+            data.draw.repaint();
+        });
         tab.addLabel("Highlight opacity");
         tab.addDoubleSpinner(data.highlightOpacity, 0, 1, 0.1, (e, v) -> {
             data.highlightOpacity = v;

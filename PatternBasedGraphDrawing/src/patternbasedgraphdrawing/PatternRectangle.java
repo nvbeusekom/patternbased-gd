@@ -69,7 +69,11 @@ public class PatternRectangle {
     // Logic for determining if an edge should be a straight line-segment
     public boolean straightEdge(int r, int c){
         // This line determines if an edge is in the rectanlge, then it should be straight
-        return r >= i && r < i+h && c >= j && c < j+w;
+        return inRect(r,c) || inRect(c,r);
+    }
+    
+    public boolean inRect(int x, int y){
+        return x >= i && x < i+h && y >= j && y < j+w;
     }
     
     public boolean overlaps(PatternRectangle r){
@@ -89,10 +93,11 @@ public class PatternRectangle {
     
     @Override
     public String toString(){
-        return pattern.name() + ":\n"
-                + i+","+j+"---"+i+","+(j+w) + "\n"
+        return pattern.name() + ", score: " + this.score +":\n"
+                + i+","+j+"---"+i+","+(j+w-1) + "\n"
                 + "  |       |\n"
-                + (i+h)+","+j+"---"+(i+h)+","+(j+w);
+                + (i+h-1)+","+j+"---"+(i+h-1)+","+(j+w-1);
+        
     }
     
     // Hashing 4 integers is hard with 32 bits (I think) so instead I hash array indices in any algorithms that need it.

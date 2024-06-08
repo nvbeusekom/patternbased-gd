@@ -50,13 +50,13 @@ public class PatternFinder {
                 
             }
             int width = bestJ - (i-1);
+            
             if(bestJ > 0){
                 PatternRectangle cluster = new PatternRectangle(i,i,width,width,bestScore);
                 cluster.setCluster();
                 addNotContaining(patterns,cluster);
             }
         }
-        
         // === BiClusters ===
         
         // should be O(n^4)
@@ -78,7 +78,7 @@ public class PatternFinder {
                 int bestWidth = -1;
                 int bestHeight = -1;
                 double bestScore = 0;
-                while(i + height < j && j + width < matrix.n){
+                while((i + height < j || j + width < matrix.n) && i+1<j && j+1 < matrix.n){
                     int rightGain = 0;
                     int bottomGain = 0;
                     // We can grow to the right: compute the gain
@@ -105,10 +105,10 @@ public class PatternFinder {
                         // Grow to the right
                         blackCells += rightGain;
                         width++;
-                        if(percentRight > BICLUSTERTHRESHOLD){
+                        if(percentRight >= BICLUSTERTHRESHOLD){
                             bestWidth = width;
                             bestHeight = height;
-                            bestScore = width * height + percentRight;
+                            bestScore = width * height;// + percentRight;
                         }
                         
                     }
@@ -119,13 +119,23 @@ public class PatternFinder {
                         if(percentBottom > BICLUSTERTHRESHOLD){
                             bestWidth = width;
                             bestHeight = height;
-                            bestScore = width * height + percentBottom;
+                            bestScore = width * height;// + percentBottom;
                         }
                     }
                     // Both 0
                     else{
-                        width++;
-                        height++;
+                        boolean growing = false;
+                        if(j + width < matrix.n-1){
+                            growing = true;
+                            width++;
+                        }
+                        if(i + height < j-1){
+                            growing = true;
+                            height++;
+                        }
+                        if(!growing){
+                            break;
+                        }
                     }
                     
                 }
@@ -171,11 +181,11 @@ public class PatternFinder {
     }
     
     private void addNotContaining(ArrayList<PatternRectangle> currentPatterns, PatternRectangle toAdd){
-        for (PatternRectangle pattern : currentPatterns) {
-            if(pattern.contains(toAdd) && pattern.score >= toAdd.score){
-                return;
-            }
-        }
+//        for (PatternRectangle pattern : currentPatterns) {
+//            if(pattern.contains(toAdd) && pattern.score >= toAdd.score){
+//                return;
+//            }
+//        }
         currentPatterns.add(toAdd);
     }
     
@@ -188,7 +198,7 @@ public class PatternFinder {
     private double clusterScore(int blackCells, int width){
         double percentage = blackCellClusterPercentage(blackCells,width);
         
-        return width*width + percentage;
+        return width*width;// + percentage;
     }
     
 }
